@@ -49,7 +49,9 @@ An [INformed](https://json-schema.org/) [STRUCTural](https://en.wikipedia.org/wi
 
 ## About
 
-[![InStructEd Screenshot](resources/cover.png)](resources/cover.png)
+[![InStructEd Screenshot](resources/cover.png)](https://www.youtube.com/)
+
+(TODO Click to see Demo)
 
 A Drexel `CS-338` GUI Project to demonstrate knowledge of UI design.
 
@@ -82,6 +84,10 @@ See the [Releases Page](https://github.com/peter201943/InStructEd/releases) for 
 
 
 ## Usage
+
+### Demo
+[![InStructEd Demo](resources/cover.png)](https://www.youtube.com/)  
+Click on the image to watch a demonstration of InStructEd.
 
 ### Core Concepts
 [![Core Concepts in InStructEd](resources/core-concepts.png)](resources/core-concepts.png)  
