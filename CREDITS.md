@@ -130,10 +130,17 @@
 
 ## Misc Godot
 - > [Add full Markdown support for use in browsing, creating, and editing projects and addons #139 ](https://github.com/godotengine/godot-proposals/issues/139)
+  - Discussion on lack of Markdown support
+- > [A juicy text editor powered by Godot's text edit and rich text label nodes](https://www.reddit.com/r/godot/comments/i5eequ/a_juicy_text_editor_powered_by_godots_text_edit/)
+  - Demonstration and discussion of rich text effects in Godot
 - > [TEXTREME](https://github.com/cis-ash/TEXTREME)
-  - > [A juicy text editor powered by Godot's text edit and rich text label nodes](https://www.reddit.com/r/godot/comments/i5eequ/a_juicy_text_editor_powered_by_godots_text_edit/)
+  - An OS and older version of the effectful text editor
 - > [Confirmation before closing of tab/browser](https://stackoverflow.com/questions/10311341/confirmation-before-closing-of-tab-browser)
+  - To prevent users losing all of their data
 - > [Custom HTML page for Web export](https://docs.godotengine.org/en/stable/tutorials/platform/customizing_html5_shell.html)
+  - For configuring Godot to do this automatically
+- > [.import and git ignore?](https://www.reddit.com/r/godot/comments/9l0awh/import_and_git_ignore/e735gju/)
+  - Discussion on why certain folders are excluded
 
 
 ## Assets
