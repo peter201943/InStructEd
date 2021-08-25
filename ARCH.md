@@ -85,6 +85,9 @@ The `cursor` objects allows a user to move around a document, select elements, a
 Global themes, scripts, and objects used throughout the editor.
 Display scaling rules, UI generation rules.
 
+#### [`editor/export/`](editor/export/)
+Configurations and files for exporting to platforms
+
 #### [`editor/element/`](editor/element/)
 The `element` object represents the elements of a JSON document.
 
