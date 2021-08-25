@@ -1,0 +1,3 @@
+[gd_scene format=2]
+
+[node name="show_elemet_help" type="Node2D"]

@@ -131,6 +131,12 @@ Selected.
 #### [`editor/editor/window/`](editor/editor/window/)
 The full window a user sees.
 
+#### [`editor/editor/settings/`](editor/editor/settings/)
+A Menu for changing options.
+
+#### [`editor/editor/keybinds/`](editor/editor/keybinds/)
+A Menu for changing keys.
+
 ---
 
 #### [`editor/element/command/`](editor/element/command/)
@@ -158,8 +164,11 @@ Also a Command, bound to `ctrl+s`.
 
 ---
 
-#### [`editor/help/tooltip/](editor/help/tooltip/)
-A UI element that each *Object* defines for itself.
+#### [`editor/help/help/`](editor/help/help/)
+A Big Custom UI element that each *Object* defines for itself.
+
+#### [`editor/help/tooltip/`](editor/help/tooltip/)
+A Brief Defined UI element that each *Object* defines for itself.
 
 #### [`editor/help/command/`](editor/help/command/)
 *(TODO Describe)*
@@ -185,7 +194,7 @@ Bound to `ctrl+z` by default.
 The default user settings object and menu.
 No keybinding.
 
-### [`editor/user/create/`](editor/user/create/)
+#### [`editor/user/create/`](editor/user/create/)
 Menu and Firebase rules for creating a new user.
 No keybinding.
 
@@ -199,10 +208,6 @@ No keybinding.
 
 #### [`editor/user/save/`](editor/user/save/)
 Push settings to Firebase.
-No keybinding.
-
-#### [`editor/user/settings/`](editor/user/settings/)
-The menu and object for tracking user settings locally.
 No keybinding.
 
 ---

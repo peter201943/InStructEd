@@ -1,0 +1,3 @@
+[gd_scene format=2]
+
+[node name="editor_settings" type="Node2D"]

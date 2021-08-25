@@ -1,0 +1,3 @@
+[gd_scene format=2]
+
+[node name="mode_follow" type="Node2D"]

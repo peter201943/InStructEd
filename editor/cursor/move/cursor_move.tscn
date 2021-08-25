@@ -1,0 +1,3 @@
+[gd_scene format=2]
+
+[node name="cursor_move" type="Node2D"]
