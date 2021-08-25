@@ -121,6 +121,13 @@ Bound to `shift+movement` by default.
 
 ---
 
+#### [`editor/editor/input/`](editor/editor/input/)
+Singleton.
+Handles all input and tracks mode, signaling to the appropriate objects.
+No Keybinds.
+No Modes.
+Selected.
+
 #### [`editor/editor/window/`](editor/editor/window/)
 The full window a user sees.
 
@@ -492,6 +499,66 @@ Look to this document as more of an ideal than as an actual reflection of the cu
 
 ### Render Settings
 Need to reduce render rate from 60 FPS down to 6 FPS.
+
+### Code Map Item Features
+- **Level**       (Parent Subsection with Number)
+- **Path**        (Folders to Item)
+- **Link**        (Link to Project Source)
+- **Keybind**     (If None say "No Keybinds.")
+- **Mode**        (If None say "No Modes.")
+- **Type**        (Singleton, Command, Producer, Networking, Interface, Holder)
+- **Description** (Short Plain English Text)
+- **Status**      (Rejected, Selected, Completed)
+
+### Example Code Map Feature Data
+```yaml
+level:        3
+path:         editor/editor/input
+link:         editor/editor/input
+keybind:      No
+mode:         []
+type:         Singleton
+description:  Handles all input and tracks mode, signaling to the appropriate objects.
+status:       Selected
+```
+
+### Example Code Map Feature
+> ### Level 3
+> #### [`editor/editor/input/`](editor/editor/input/)
+> Singleton.
+> Handles all input and tracks mode, signaling to the appropriate objects.
+> No Keybinds.
+> No Modes.
+> Selected.
+
+### Standard Folder Contents
+(Using [Commented](https://yaml.org/spec/1.2/spec.html#id2780069) [Typed](https://yaml.org/spec/1.2/spec.html#id2761292) [YAML](https://en.wikipedia.org/wiki/YAML) Notation to refer to [Directory Contents](https://en.wikipedia.org/wiki/Directory_(computing)))
+```yaml
+item-parent/:         !Dir    # Items should be relative to some other items.
+                              # This gives them context and meaning.
+  item/:              !Dir    # Note the term "item" is used throughout the various files.
+                              # This allows for the Class Browser to clearly identify
+                              # class files, even without the folder path.
+    item-child/:      !Dir    # Items should be relative to some other items
+                              # These should be either SubTypes of the item
+                              # (Such as `elements` under `element`)
+                              # Or be Aspects (Such as `commands`) of the item.
+    item.gd:          !Class  # The class is simply the name (WITH UNDERSCORES not DASHES). 
+                              # Contains Comments and documentation, 
+                              # as well as callback methods.
+    item_action.ogg:  !Audio  # For juicy feedback to the user, sounds might be used
+                              # Animation (Tween) Tracks can also be included.
+    item_icon.png:    !Image  # Icons, Images, Etcetera include picture files
+                              # Also includes other data formats (GIF, SVG, MOV)
+    item.tscn:        !Object # The Data Layout (other objects) as a plaintext serialization
+                              # Can be inherited, composed, and instantiated like classes.
+                              # Describes LAYOUT as opposed to FUNCTIONALITY.
+                              # Also contains the signal connections and variable data.
+    item_tip.tscn:    !Tip    # From `help/tooltip`, is an image, text, and keybind 
+                              # information for this object. 
+    item_help.tscn:   !Help   # From `help/help`, is a custom `Container` with icons and
+                              # text describing how a thing can be interacted with
+```
 
 ### Object Map
 ```yaml
