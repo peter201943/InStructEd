@@ -125,6 +125,8 @@
   - For showing status on a GitHub README
 - > [Markdown Badges](https://github.com/Ileriayo/markdown-badges)
   - For a list of acceptable badges
+- > [Godot Gitignore](https://github.com/github/gitignore/blob/master/Godot.gitignore)
+  - For use with Git VCS
 
 ## Misc Godot
 - > [Add full Markdown support for use in browsing, creating, and editing projects and addons #139 ](https://github.com/godotengine/godot-proposals/issues/139)
