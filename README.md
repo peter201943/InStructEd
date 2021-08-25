@@ -83,6 +83,10 @@ See the [Releases Page](https://github.com/peter201943/InStructEd/releases) for 
 
 ## Usage
 
+### Core Concepts
+[![Core Concepts in InStructEd](resources/core-concepts.png)](resources/core-concepts.png)  
+*(TODO Core Concepts Description)*
+
 ### Opening Files
 [![Opening a File in InStructEd](resources/open-a-file.png)](resources/open-a-file.png)  
 *(TODO How to Open a File Description)*
@@ -91,14 +95,6 @@ See the [Releases Page](https://github.com/peter201943/InStructEd/releases) for 
 [![Saving a File in InStructEd](resources/save-a-file.png)](resources/save-a-file.png)  
 *(TODO How to Save a File Description)*
 
-### Changing Settings
-[![Changing Settings in InStructEd](resources/change-settings.png)](resources/change-settings.png)  
-*(TODO Changing Settings Description)*
-
-### Reassigning Keys
-[![Reassigning Keys in InStructEd](resources/reassign-keys.png)](reassign-keys.png)  
-*(TODO Reassigning Keys Description)*
-
 ### Basic Navigation
 [![Navigating in InStructEd](resources/navigation.png)](resources/navigation.png)  
 *(TODO Navigation Description)*
@@ -106,10 +102,6 @@ See the [Releases Page](https://github.com/peter201943/InStructEd/releases) for 
 ### Basic Manipulations
 [![Manipulating Fields in InStructEd](resources/manipulation.png)](resources/manipulation.png)  
 *(TODO Manipulating Fields Description)*
-
-### Core Concepts
-[![Core Concepts in InStructEd](resources/core-concepts.png)](resources/core-concepts.png)  
-*(TODO Core Concepts Description)*
 
 ### Keyboard Controls
 [![Keyboard Controls in InStructEd](resources/keyboard-controls.png)](resources/keyboard-controls.png)  
@@ -122,6 +114,14 @@ See the [Releases Page](https://github.com/peter201943/InStructEd/releases) for 
 ### Mouse Controls
 [![Mouse Controls in InStructEd](resources/mouse-controls.png)](resources/mouse-controls.png)  
 *(TODO Mouse Controls Description)*
+
+### Changing Settings
+[![Changing Settings in InStructEd](resources/change-settings.png)](resources/change-settings.png)  
+*(TODO Changing Settings Description)*
+
+### Reassigning Keys
+[![Reassigning Keys in InStructEd](resources/reassign-keys.png)](reassign-keys.png)  
+*(TODO Reassigning Keys Description)*
 
 
 ## Roadmap
@@ -187,6 +187,8 @@ See the [Releases Page](https://github.com/peter201943/InStructEd/releases) for 
 - [ ] Markdown Field Rendering
 - [ ] Cursor View Following Command
 
+See [`ARCH.md`](ARCH.md) for more details.
+
 
 ## Contributing
 
@@ -195,7 +197,7 @@ See [`ARCH.md`](ARCH.md) to get a basic understanding of how the project works.
 Also take a look at some of the other Godot projects listed under [`CREDITS.md`](CREDITS.md) to get a good understanding of how Godot works and how to structure a Godot project.
 
 ### Prerequisites
-- [Godot v`3.3.3`](https://godotengine.org/download)
+- [Godot v3.3.3](https://godotengine.org/download)
 
 ### Installation
 1. Clone the Repo
@@ -223,7 +225,8 @@ Peter James Mangelsdorf
 
 ### Project
 InStructEd  
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white&label=peter201943%2FInStructEd)](https://github.com/peter201943/InStructEd)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white&label=peter201943%2FInStructEd)](https://github.com/peter201943/InStructEd)  
+[![Drexel](resources/drexel-logo.svg) cs.drexel.edu](https://www.cs.drexel.edu/~pjm349/InStructEd)
 
 
 ## Acknowledgements
