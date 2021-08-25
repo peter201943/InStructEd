@@ -1,7 +1,7 @@
 # Godot-specific ignores
 editor/.import/
 editor/export.cfg
-editor/export_presets.cfg
+# editor/export_presets.cfg # Removed because there is no sesntivie information in this file
 
 # Imported translations (automatically generated from CSV files)
 editor/*.translation
