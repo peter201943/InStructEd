@@ -26,6 +26,9 @@ Most *Objects* are only documented in their *Scripts*.
 This In-Script documentation details more definitively what an object is and does.
 Refer back to this document to understand how *Objects* relate to one another.
 
+### A Note on JSON
+This assumes a strict definition of JSON, and will delete both whitespace and comments.
+
 
 ## Birds Eye View
 
@@ -47,6 +50,16 @@ This is a complete breakdown and description of all folders and their role in th
 The sections are grouped by depth, not aspect.
 
 *(TODO Paths)*
+
+*(TODO Revise `input` object to Handle Raw Expressions (Left/Right/Up/Down))*
+
+*(TODO Fix Keybinds)*
+
+*(TODO Add Prototypes Section)*
+
+*(TODO Retrieve Binds Notes From Daily Notes)*
+
+*(TODO Find Game Inspector Plugin in Daily Notes)*
 
 
 ### Level 0
@@ -649,6 +662,13 @@ editor:
       in:
       out:
 ```
+
+### Syncing Documents
+Is a lot of work. Only synching the most basic of user configurations precisely to avoid this problem. Documents themselves are not tricky, but incremental, small edits to a large document is tricky.
+
+See the networking libraries used by Google Keep as a simple example of the involved complexity.
+
+
 
 
 

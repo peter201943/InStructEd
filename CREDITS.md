@@ -25,6 +25,8 @@
 - > [PIXELORAMA](https://www.orama-interactive.com/)
   - A Fantastic fully-open-source graphically-intensive Godot application
   - [Also runs in the browser](https://orama-interactive.itch.io/pixelorama)
+- > [Godello (aka GodoTrello)](https://github.com/alfredbaudisch/Godello)
+  - Another full open-source intense application in Godot
 - > [Is Making Advanced GUI Applications with Godot the Future?](https://medium.com/swlh/what-makes-godot-engine-great-for-advance-gui-applications-b1cfb941df3b)
   - Describes why Godot should be considered
 - > [Google Champion Island Doodle](https://www.google.com/doodles/doodle-champion-island-games-begin)
@@ -128,7 +130,7 @@
 - > [Godot Gitignore](https://github.com/github/gitignore/blob/master/Godot.gitignore)
   - For use with Git VCS
 
-## Misc Godot
+### Misc Godot
 - > [Add full Markdown support for use in browsing, creating, and editing projects and addons #139 ](https://github.com/godotengine/godot-proposals/issues/139)
   - Discussion on lack of Markdown support
 - > [A juicy text editor powered by Godot's text edit and rich text label nodes](https://www.reddit.com/r/godot/comments/i5eequ/a_juicy_text_editor_powered_by_godots_text_edit/)
@@ -141,6 +143,12 @@
   - For configuring Godot to do this automatically
 - > [.import and git ignore?](https://www.reddit.com/r/godot/comments/9l0awh/import_and_git_ignore/e735gju/)
   - Discussion on why certain folders are excluded
+
+### Vi Keybinds
+- > [This is my favorite vim cheat sheet. Does anyone know who created it?](https://www.reddit.com/r/vim/comments/32r85c/this_is_my_favorite_vim_cheat_sheet_does_anyone/)
+- > [What is your most productive shortcut with Vim?](https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim)
+- > [Handy! Comprehensive VIM Cheat Sheet by typo209](https://twitter.com/cheatography/status/1297888906260762624)
+- > [Vim Cheat Sheet for Programmers](https://imgcrack.com/story/205/vim-cheat-sheet-for-programmers)
 
 
 ## Assets
