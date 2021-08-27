@@ -108,10 +108,13 @@ The `element` object represents the elements of a JSON document.
 The `file` object is used to save, load, and locate JSON files.
 
 #### [`editor/help/`](editor/help/)
-*(TODO Describe)*
+Interactive Help.
 
-#### [`editor/history`](editor/history/)
-*(TODO Describe)*
+#### [`editor/history/`](editor/history/)
+Edit History.
+
+#### [`editor/prototypes/`](editor/prototypes/)
+Experiments and tutorials.
 
 #### [`editor/user/`](editor/user/)
 The `user` object loads, saves, synchronizes, and applies settings to the editor.

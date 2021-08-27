@@ -1,0 +1,93 @@
+---
+metadata:
+	title: A Demo File
+  author: Peter Mangelsdorf
+  date: 2021-08-01
+  tags: [Demo, Test, JSON, Example, Display, Tables]
+  description: |-
+  	a throroughly complex JSON document to use for testing
+sections:
+	1:
+  	name: Long Name List Test
+    body:
+    - Pierres Jules DiAngelo Verne III
+    - Joachim Michael Fernando Jones
+  2: 
+  	name: Application Ordering
+    body:
+    	defun:
+      	fizzbuzz:
+        - n:
+        - cond: ...
+	3: 
+  	name: Deep List Ordering
+    body:
+    - defun
+    - [fizzbuz, n]
+    - [cond, ...]
+	4: 
+  	name: Matrix/Table Display Lists of Lists
+    body:
+    - [[1,1],[1,2],[1,3],[1,4]]
+    - [[2,1],[2,2],[2,3],[2,4]]
+    - [[3,1],[3,2],[3,3],[3,4]]
+    - [[4,1],[4,2],[4,3],[4,4]]
+	5: 
+  	name: Long Rich Text Display
+    body: |
+    	**SCENE**: Athens, and a wood not far from it.
+
+			**ACT I**.
+
+			**SCENE I**. Athens. A room in the Palace of **THESEUS**.
+
+			[Enter *THESEUS*, *HIPPOLYTA*, *PHILOSTRATE*, and *Attendants*.]
+
+			**THESEUS**
+			Now, fair Hippolyta, our nuptial hour
+			Draws on apace; four happy days bring in
+			Another moon; but, oh, methinks, how slow
+			This old moon wanes! she lingers my desires,
+			Like to a step-dame or a dowager,
+			Long withering out a young man's revenue.
+      
+    	https://github.com/okfn/shakespeare-material/blob/master/texts/gutenberg/midsummer_nights_dream_gut.txt
+	6:
+  	name: Values Display
+    body:
+    	true: True
+      false: False
+      null: No
+      int: 1
+      float: 1.2
+      date: 2021-08-01
+      datetime: 2021-08-01T19:30:00Z
+      url: https://www.google.com/
+      image: https://i.imgur.com/PPTi0MN.png
+	7: 
+  	name: List of Dictionaries
+    body:
+    - box22:
+    	- type:
+      	- box:
+        - inventorySpace:
+        - physicsObject:
+        - staticInstance:
+			- parameters:
+      	- contents:
+        	- apple1:
+          	- type:
+            	- apple:
+              - physicsObject:
+          - apple2:
+          	- type:
+            	- apple:
+              - physicsObject:
+          - apple3:
+          	- type:
+            	- apple:
+              - physicsObject:
+          - apple4:
+          	- type:
+            	- apple:
+              - physicsObject:
