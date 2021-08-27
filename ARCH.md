@@ -77,6 +77,9 @@ Documents describing the project and miscellaneous configuration files.
 
 ---
 
+#### [`docs/`](docs/)
+For publishing on the web, using GitHubPages.
+
 #### [`editor/`](editor/)
 The actual Godot project root.
 

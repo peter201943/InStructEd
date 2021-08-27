@@ -12,7 +12,7 @@ config_version=4
 
 config/name="InStructEd"
 config/description="Informed Structural Editor for JSON"
-run/main_scene="res://editor/editor.tscn"
+run/main_scene="res://experiment/ui-representations/exp_hvbox.tscn"
 config/icon="res://icon.png"
 
 [physics]

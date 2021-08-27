@@ -156,6 +156,11 @@
 - > [Handy! Comprehensive VIM Cheat Sheet by typo209](https://twitter.com/cheatography/status/1297888906260762624)
 - > [Vim Cheat Sheet for Programmers](https://imgcrack.com/story/205/vim-cheat-sheet-for-programmers)
 
+### HTML
+- > [How to point github pages to custom html home page](https://stackoverflow.com/questions/36141195/how-to-point-github-pages-to-custom-html-home-page)
+- > [Redirect from an HTML page](https://stackoverflow.com/questions/5411538/redirect-from-an-html-page)
+- > [Unpublishing a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/unpublishing-a-github-pages-site)
+
 
 ## Assets
 
