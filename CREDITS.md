@@ -67,6 +67,8 @@
   - Dynamically set positioning of elements
 - > [GUI skinning](https://docs.godotengine.org/en/stable/tutorials/gui/gui_skinning.html)
   - Handling of user customization with themes
+- > [Tips: Align and Center Items in a Grid in Godot (tutorial)](https://www.youtube.com/watch?v=VJEQJ1f17uw)
+  - Scaling, very important for rendering
 
 ### Godot Database Tutorials
 - > [Login with Firebase in Godot 3.1 (tutorial)](https://www.youtube.com/watch?v=Udm7uDQM05w)

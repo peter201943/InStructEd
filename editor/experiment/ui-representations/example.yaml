@@ -55,8 +55,7 @@ sections:
 	6:
   	name: Values Display
     body:
-    	true: True
-      false: False
+    	bool: True
       null: No
       int: 1
       float: 1.2

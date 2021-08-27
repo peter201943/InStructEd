@@ -49,13 +49,11 @@ Use lots of meta-objects to represent intermediary state.
 This is a complete breakdown and description of all folders and their role in the project.
 The sections are grouped by depth, not aspect.
 
-*(TODO Paths)*
+*(TODO Finish Adding Paths)*
 
 *(TODO Revise `input` object to Handle Raw Expressions (Left/Right/Up/Down))*
 
 *(TODO Fix Keybinds)*
-
-*(TODO Add Prototypes Section)*
 
 *(TODO Retrieve Binds Notes From Daily Notes)*
 
@@ -98,6 +96,10 @@ The `cursor` objects allows a user to move around a document, select elements, a
 Global themes, scripts, and objects used throughout the editor.
 Display scaling rules, UI generation rules.
 
+#### [`editor/experiment/`](editor/experiment/)
+Various prototypes to drive rendering, generation, and core functionality development.
+Also includes test scenes, dummy data, and other useful bits.
+
 #### [`editor/export/`](editor/export/)
 Configurations and files for exporting to platforms
 
@@ -112,9 +114,6 @@ Interactive Help.
 
 #### [`editor/history/`](editor/history/)
 Edit History.
-
-#### [`editor/prototypes/`](editor/prototypes/)
-Experiments and tutorials.
 
 #### [`editor/user/`](editor/user/)
 The `user` object loads, saves, synchronizes, and applies settings to the editor.

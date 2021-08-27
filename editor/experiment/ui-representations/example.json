@@ -134,8 +134,7 @@
     "6": {
       "name": "Values Display",
       "body": {
-        "true": true,
-        "false": false,
+        "bool": true,
         "": false,
         "int": 1,
         "float": 1.2,
