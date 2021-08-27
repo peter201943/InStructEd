@@ -13,13 +13,13 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=index.html">
+    <meta http-equiv="refresh" content="0; url=build/index.html">
     <script type="text/javascript">
-      window.location.href = "index.html"
+      window.location.href = "build/index.html"
     </script>
     <title>Page Redirection</title>
   </head>
   <body>
-    If you are not redirected automatically, follow this <a href='index.html'>link to example</a>.
+    If you are not redirected automatically, follow this <a href='build/index.html'>link to InStructEd</a>.
   </body>
 </html>
