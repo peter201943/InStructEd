@@ -163,11 +163,55 @@
 - > [Redirect from an HTML page](https://stackoverflow.com/questions/5411538/redirect-from-an-html-page)
 - > [Unpublishing a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/unpublishing-a-github-pages-site)
 
+### ItchIO
+- > [ITCH.IO BUTLER](https://itch.io/docs/butler/)
+- > [How to publish your Godot Game to itch.io via Github actions](https://bitbra.in/2020/08/01/publish-godot-game-to-itchio.html)
+
+### Git
+- > [Everything you need to know to resolve the Git Push RPC error](https://medium.com/swlh/everything-you-need-to-know-to-resolve-the-git-push-rpc-error-1a865fd1ebea)
+  - Trying to push a WebAssembly file to GitHub is difficult
+  - Many helpful tips and links
+- > [The remote end hung up unexpectedly while git cloning](https://stackoverflow.com/questions/6842687/the-remote-end-hung-up-unexpectedly-while-git-cloning)
+- > [How can I debug git/git-shell related problems?](https://stackoverflow.com/questions/6178401/how-can-i-debug-git-git-shell-related-problems)
+
 
 ## Assets
+
+### Fonts
+- > [Rampart One](https://fonts.google.com/specimen/Rampart+One)
+  - Title
+- > [Roboto](https://fonts.google.com/specimen/Roboto)
+  - Standard Text
+- > [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab)
+  - Header Text
+- > [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
+  - Editor Text
 
 ### Misc
 - > [Freepik Traffic Cone](https://www.flaticon.com/free-icon/traffic-cone_1068674?term=traffic%20cone&page=1&position=18&page=1&position=18&related_id=1068674&origin=tag)
 - > [Drexel Dragon Icon](https://drexel.edu/identity/drexel/dragon-icon/)
+
+### Icons
+- > [Freepik Selection Cursors 62 Icons (Colored)](https://www.flaticon.com/packs/selection-and-cursors-62)
+- > [Freepik Designer Set Icons (Colored)](https://www.flaticon.com/packs/designer-set)
+- > [Freepik Origami 27 Icons (Colored)](https://www.flaticon.com/packs/origami-27)
+
+### Not Used
+- https://www.flaticon.com/packs/alphabet-and-numbers-18
+- https://www.flaticon.com/packs/essential-collection
+- https://www.flaticon.com/packs/design-thinking-154
+- https://www.flaticon.com/packs/multimedia-player-control?word=interface
+- https://www.flaticon.com/packs/actions-3?word=interface
+- https://www.flaticon.com/packs/design-thinking-37?word=interface
+- https://www.flaticon.com/packs/basic-ui-3/2?word=interface
+- https://www.flaticon.com/packs/control/2?word=interface
+- https://www.flaticon.com/packs/interaction-assets-2?word=interface
+
+
+
+
+
+
+
 
 

@@ -673,7 +673,20 @@ Is a lot of work. Only synching the most basic of user configurations precisely 
 
 See the networking libraries used by Google Keep as a simple example of the involved complexity.
 
-
-
+### Semantics of Editing
+Editors and editor workflows while expressing semantics between files.
+Semantics exist more as links within expressions within files, linking to expressions within other files.
+The expressions themselves indicate the ways in which those links are meant to be interpreted.
+The puzzlement of creating spaces for the self to do work in.
+Task of efficiently typing text in.
+Godot recognizes the importance of serializing things to files and folders.
+Folders are not enough to express semantics and no semantic linking means at best only limited semantics can be captured with folders of folders.
+The difficulty of limiting views and indicating uses of files.
+How to link documents together in this space?
+Maybe focusing on a common data structure first would be better.
+Some basic manipulations to that data structure.
+Just work our way up from there.
+Google Keep was smart to not allow any structuring of its inputs.
+Programming semantics includes Intrinsics, Code that does stuff, and Extrinsics, Docs about code
 
 
