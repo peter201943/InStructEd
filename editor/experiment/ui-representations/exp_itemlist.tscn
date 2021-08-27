@@ -1,8 +1,13 @@
 [gd_scene format=2]
 
-[node name="exp_itemlist" type="Control"]
+[node name="exp_itemlist" type="CenterContainer"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
+
+[node name="ItemList" type="ItemList" parent="."]
+margin_left = 412.0
+margin_top = 200.0
+margin_right = 612.0
+margin_bottom = 400.0
+rect_min_size = Vector2( 200, 200 )
+items = [ "Item 0", null, false, "Item 1", null, false, "Item 2", null, false, "Item 3", null, false ]

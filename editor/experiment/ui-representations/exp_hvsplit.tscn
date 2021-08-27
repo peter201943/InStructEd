@@ -1,8 +1,39 @@
 [gd_scene format=2]
 
-[node name="exp_hvsplit" type="Control"]
+[node name="exp_hvsplit" type="CenterContainer"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="split" type="VSplitContainer" parent="."]
+margin_left = 495.0
+margin_top = 267.0
+margin_right = 529.0
+margin_bottom = 333.0
+
+[node name="body" type="Label" parent="split"]
+margin_right = 34.0
+margin_bottom = 14.0
+text = "Label"
+
+[node name="split2" type="VSplitContainer" parent="split"]
+margin_top = 26.0
+margin_right = 34.0
+margin_bottom = 66.0
+
+[node name="body" type="Label" parent="split/split2"]
+margin_right = 34.0
+margin_bottom = 14.0
+text = "Label"
+
+[node name="split3" type="VSplitContainer" parent="split/split2"]
+margin_top = 26.0
+margin_right = 34.0
+margin_bottom = 40.0
+
+[node name="body" type="Label" parent="split/split2/split3"]
+margin_right = 34.0
+margin_bottom = 14.0
+text = "Label"
