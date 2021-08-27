@@ -9,9 +9,8 @@ __meta__ = {
 
 [node name="main_document" type="GridContainer" parent="."]
 margin_left = 265.0
-margin_top = 141.0
 margin_right = 758.0
-margin_bottom = 984.0
+margin_bottom = 861.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
@@ -139,7 +138,7 @@ text = "a throroughly complex JSON document to use for testing"
 [node name="sections" type="GridContainer" parent="main_document"]
 margin_top = 90.0
 margin_right = 493.0
-margin_bottom = 843.0
+margin_bottom = 861.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 columns = 2
@@ -819,16 +818,16 @@ fit_content_height = true
 scroll_active = false
 
 [node name="section_6_label" type="Label" parent="main_document/sections"]
-margin_top = 640.0
+margin_top = 649.0
 margin_right = 8.0
-margin_bottom = 654.0
+margin_bottom = 663.0
 text = "6"
 
 [node name="section_6" type="GridContainer" parent="main_document/sections"]
 margin_left = 12.0
 margin_top = 577.0
 margin_right = 493.0
-margin_bottom = 717.0
+margin_bottom = 735.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 columns = 2
@@ -845,120 +844,133 @@ margin_bottom = 14.0
 text = "Values Display"
 
 [node name="body_label" type="Label" parent="main_document/sections/section_6"]
-margin_top = 72.0
+margin_top = 81.0
 margin_right = 36.0
-margin_bottom = 86.0
+margin_bottom = 95.0
 text = "body"
 
 [node name="body" type="GridContainer" parent="main_document/sections/section_6"]
 margin_left = 40.0
 margin_top = 18.0
 margin_right = 481.0
-margin_bottom = 140.0
+margin_bottom = 158.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 columns = 2
 
-[node name="label_bool" type="Label" parent="main_document/sections/section_6/body"]
+[node name="label_string" type="Label" parent="main_document/sections/section_6/body"]
 margin_right = 58.0
 margin_bottom = 14.0
+text = "string"
+
+[node name="field_string" type="Label" parent="main_document/sections/section_6/body"]
+margin_left = 62.0
+margin_right = 275.0
+margin_bottom = 14.0
+text = "Arbitrary Text"
+
+[node name="label_bool" type="Label" parent="main_document/sections/section_6/body"]
+margin_top = 18.0
+margin_right = 58.0
+margin_bottom = 32.0
 text = "true"
 
 [node name="field_bool" type="Label" parent="main_document/sections/section_6/body"]
 margin_left = 62.0
+margin_top = 18.0
 margin_right = 275.0
-margin_bottom = 14.0
+margin_bottom = 32.0
 text = "True"
 
 [node name="label_int" type="Label" parent="main_document/sections/section_6/body"]
-margin_top = 18.0
+margin_top = 36.0
 margin_right = 58.0
-margin_bottom = 32.0
+margin_bottom = 50.0
 text = "int"
 
 [node name="field_int" type="Label" parent="main_document/sections/section_6/body"]
 margin_left = 62.0
-margin_top = 18.0
+margin_top = 36.0
 margin_right = 275.0
-margin_bottom = 32.0
+margin_bottom = 50.0
 text = "1"
 
 [node name="label_float" type="Label" parent="main_document/sections/section_6/body"]
-margin_top = 36.0
+margin_top = 54.0
 margin_right = 58.0
-margin_bottom = 50.0
+margin_bottom = 68.0
 text = "float"
 
 [node name="field_float" type="Label" parent="main_document/sections/section_6/body"]
 margin_left = 62.0
-margin_top = 36.0
+margin_top = 54.0
 margin_right = 275.0
-margin_bottom = 50.0
+margin_bottom = 68.0
 text = "1.2"
 
 [node name="label_date" type="Label" parent="main_document/sections/section_6/body"]
-margin_top = 54.0
+margin_top = 72.0
 margin_right = 58.0
-margin_bottom = 68.0
+margin_bottom = 86.0
 text = "date"
 
 [node name="field_date" type="Label" parent="main_document/sections/section_6/body"]
 margin_left = 62.0
-margin_top = 54.0
+margin_top = 72.0
 margin_right = 275.0
-margin_bottom = 68.0
+margin_bottom = 86.0
 text = "2021-08-01"
 
 [node name="label_datetime" type="Label" parent="main_document/sections/section_6/body"]
-margin_top = 72.0
+margin_top = 90.0
 margin_right = 58.0
-margin_bottom = 86.0
+margin_bottom = 104.0
 text = "datetime"
 
 [node name="field_datetime" type="Label" parent="main_document/sections/section_6/body"]
 margin_left = 62.0
-margin_top = 72.0
+margin_top = 90.0
 margin_right = 275.0
-margin_bottom = 86.0
+margin_bottom = 104.0
 text = "2021-08-01T19:30:00Z"
 
 [node name="label_url" type="Label" parent="main_document/sections/section_6/body"]
-margin_top = 90.0
+margin_top = 108.0
 margin_right = 58.0
-margin_bottom = 104.0
+margin_bottom = 122.0
 text = "url"
 
 [node name="field_url" type="Label" parent="main_document/sections/section_6/body"]
 margin_left = 62.0
-margin_top = 90.0
+margin_top = 108.0
 margin_right = 275.0
-margin_bottom = 104.0
+margin_bottom = 122.0
 text = "https://www.google.com/"
 
 [node name="label_image" type="Label" parent="main_document/sections/section_6/body"]
-margin_top = 108.0
+margin_top = 126.0
 margin_right = 58.0
-margin_bottom = 122.0
+margin_bottom = 140.0
 text = "image"
 
 [node name="field_image" type="Label" parent="main_document/sections/section_6/body"]
 margin_left = 62.0
-margin_top = 108.0
+margin_top = 126.0
 margin_right = 275.0
-margin_bottom = 122.0
+margin_bottom = 140.0
 text = "https://i.imgur.com/PPTi0MN.png"
 
 [node name="section_7_label" type="Label" parent="main_document/sections"]
-margin_top = 730.0
+margin_top = 748.0
 margin_right = 8.0
-margin_bottom = 744.0
+margin_bottom = 762.0
 text = "7"
 
 [node name="section_7" type="GridContainer" parent="main_document/sections"]
 margin_left = 12.0
-margin_top = 721.0
+margin_top = 739.0
 margin_right = 493.0
-margin_bottom = 753.0
+margin_bottom = 771.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 columns = 2

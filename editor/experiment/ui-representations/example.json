@@ -134,6 +134,7 @@
     "6": {
       "name": "Values Display",
       "body": {
+        "string": "Arbitrary Text",
         "bool": true,
         "": false,
         "int": 1,

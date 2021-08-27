@@ -55,6 +55,7 @@ sections:
 	6:
   	name: Values Display
     body:
+			string: Arbitrary Text
     	bool: True
       null: No
       int: 1
