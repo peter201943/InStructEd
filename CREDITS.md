@@ -131,6 +131,8 @@
   - For a list of acceptable badges
 - > [Godot Gitignore](https://github.com/github/gitignore/blob/master/Godot.gitignore)
   - For use with Git VCS
+- > [Unity Gitattributes File](https://gist.github.com/nemotoo/b8a1c3a0f1225bb9231979f389fd4f3f)
+  - For handling WebAssembly and other large binary files
 
 ### Misc Godot
 - > [Add full Markdown support for use in browsing, creating, and editing projects and addons #139 ](https://github.com/godotengine/godot-proposals/issues/139)
