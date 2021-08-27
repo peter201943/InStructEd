@@ -1,9 +1,10 @@
 
 
-[![MIT License](https://img.shields.io/github/license/peter201943/InStructEd.svg)](https://opensource.org/licenses/MIT?style=flat)
+[![MIT License](https://img.shields.io/github/license/peter201943/InStructEd.svg?style=flat)](https://opensource.org/licenses/MIT)
 [![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=flat&logo=godot-engine&color=grey)](https://godotengine.org/)
 [![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase)](https://firebase.google.com/)
 [![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=flat&logo=Firefox-Browser&logoColor=white)](https://www.mozilla.org/en-US/firefox/new/)
+[![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=flat&logo=Itch.io&logoColor=white&label=InStructEd)](https://peter201943.itch.io/instructed)  
 
 [![InStructEd Logo](resources/logo.png)](https://github.com/peter201943/InStructEd)
 
@@ -72,6 +73,7 @@ To manage these as cheaply and easily as possible, Google Firebase is used to ho
 ### Built With
 - [Godot](https://godotengine.org/)
 - [Firebase](https://firebase.google.com/)
+- [Itch](https://itch.io/)
 
 
 ## Getting Started
@@ -227,14 +229,14 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 Peter James Mangelsdorf  
 [![Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=flat&logo=microsoft-outlook&logoColor=white&label=peter.j.mangelsdorf)](mailto:peter.j.mangelsdorf@outlook.com)  
 [![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=flat&logo=discord&logoColor=white&label=peter201943%238017)](https://discord.com/)  
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white&label=peter201943)](https://github.com/peter201943/)
-[![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=flat&logo=Itch.io&logoColor=white)](https://peter201943.itch.io/)  
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white&label=peter201943)](https://github.com/peter201943/)  
+[![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=flat&logo=Itch.io&logoColor=white&label=peter201943)](https://peter201943.itch.io/)  
 
 ### Project
 InStructEd  
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white&label=peter201943%2FInStructEd)](https://github.com/peter201943/InStructEd)  
 [![Drexel](resources/drexel-logo.svg) cs.drexel.edu](https://www.cs.drexel.edu/~pjm349/InStructEd)  
-[![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=flat&logo=Itch.io&logoColor=white)](https://peter201943.itch.io/instructed)  
+[![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=flat&logo=Itch.io&logoColor=white&label=InStructEd)](https://peter201943.itch.io/instructed)  
 
 
 ## Acknowledgements
