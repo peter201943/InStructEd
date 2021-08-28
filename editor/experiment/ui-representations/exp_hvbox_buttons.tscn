@@ -15,6 +15,8 @@ margin_bottom = 1092.0
 [node name="metadata" type="HBoxContainer" parent="document"]
 margin_right = 641.0
 margin_bottom = 116.0
+focus_neighbour_right = NodePath("label")
+focus_neighbour_bottom = NodePath("../sectionss")
 
 [node name="label" type="Button" parent="document/metadata"]
 margin_right = 72.0
