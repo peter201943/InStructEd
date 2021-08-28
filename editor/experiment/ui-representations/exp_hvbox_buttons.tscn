@@ -1,0 +1,1023 @@
+[gd_scene format=2]
+
+[node name="exp_hvbox" type="CenterContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="document" type="VBoxContainer" parent="."]
+margin_left = 191.0
+margin_right = 832.0
+margin_bottom = 1050.0
+
+[node name="metadata" type="HBoxContainer" parent="document"]
+margin_right = 641.0
+margin_bottom = 116.0
+
+[node name="label" type="Button" parent="document/metadata"]
+margin_right = 72.0
+margin_bottom = 116.0
+text = "metadata"
+
+[node name="body" type="VBoxContainer" parent="document/metadata"]
+margin_left = 76.0
+margin_right = 536.0
+margin_bottom = 116.0
+
+[node name="title" type="HBoxContainer" parent="document/metadata/body"]
+margin_right = 460.0
+margin_bottom = 20.0
+
+[node name="label" type="Button" parent="document/metadata/body/title"]
+margin_right = 38.0
+margin_bottom = 20.0
+text = "title"
+
+[node name="body" type="Button" parent="document/metadata/body/title"]
+margin_left = 42.0
+margin_right = 133.0
+margin_bottom = 20.0
+text = "A Demo File"
+
+[node name="author" type="HBoxContainer" parent="document/metadata/body"]
+margin_top = 24.0
+margin_right = 460.0
+margin_bottom = 44.0
+
+[node name="label" type="Button" parent="document/metadata/body/author"]
+margin_right = 53.0
+margin_bottom = 20.0
+text = "author"
+
+[node name="body" type="Button" parent="document/metadata/body/author"]
+margin_left = 57.0
+margin_right = 185.0
+margin_bottom = 20.0
+text = "Peter Mangelsdorf"
+
+[node name="date" type="HBoxContainer" parent="document/metadata/body"]
+margin_top = 48.0
+margin_right = 460.0
+margin_bottom = 68.0
+
+[node name="label" type="Button" parent="document/metadata/body/date"]
+margin_right = 40.0
+margin_bottom = 20.0
+text = "date"
+
+[node name="body" type="Button" parent="document/metadata/body/date"]
+margin_left = 44.0
+margin_right = 130.0
+margin_bottom = 20.0
+text = "2021-08-01"
+
+[node name="tags" type="HBoxContainer" parent="document/metadata/body"]
+margin_top = 72.0
+margin_right = 460.0
+margin_bottom = 92.0
+
+[node name="label" type="Button" parent="document/metadata/body/tags"]
+margin_right = 38.0
+margin_bottom = 20.0
+text = "tags"
+
+[node name="body" type="HBoxContainer" parent="document/metadata/body/tags"]
+margin_left = 42.0
+margin_right = 373.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="demo" type="Button" parent="document/metadata/body/tags/body"]
+margin_right = 51.0
+margin_bottom = 20.0
+text = "Demo"
+
+[node name="test" type="Button" parent="document/metadata/body/tags/body"]
+margin_left = 55.0
+margin_right = 94.0
+margin_bottom = 20.0
+text = "Test"
+
+[node name="json" type="Button" parent="document/metadata/body/tags/body"]
+margin_left = 98.0
+margin_right = 141.0
+margin_bottom = 20.0
+text = "JSON"
+
+[node name="example" type="Button" parent="document/metadata/body/tags/body"]
+margin_left = 145.0
+margin_right = 211.0
+margin_bottom = 20.0
+text = "Example"
+
+[node name="display" type="Button" parent="document/metadata/body/tags/body"]
+margin_left = 215.0
+margin_right = 274.0
+margin_bottom = 20.0
+text = "Display"
+
+[node name="tables" type="Button" parent="document/metadata/body/tags/body"]
+margin_left = 278.0
+margin_right = 331.0
+margin_bottom = 20.0
+text = "Tables"
+
+[node name="description" type="HBoxContainer" parent="document/metadata/body"]
+margin_top = 96.0
+margin_right = 460.0
+margin_bottom = 116.0
+
+[node name="label" type="Button" parent="document/metadata/body/description"]
+margin_right = 84.0
+margin_bottom = 20.0
+text = "description"
+
+[node name="body" type="Button" parent="document/metadata/body/description"]
+margin_left = 88.0
+margin_right = 460.0
+margin_bottom = 20.0
+text = "a throroughly complex JSON document to use for testing"
+
+[node name="sectionss" type="HBoxContainer" parent="document"]
+margin_top = 120.0
+margin_right = 641.0
+margin_bottom = 1050.0
+
+[node name="label" type="Button" parent="document/sectionss"]
+margin_right = 66.0
+margin_bottom = 930.0
+text = "sections"
+
+[node name="body" type="VBoxContainer" parent="document/sectionss"]
+margin_left = 70.0
+margin_right = 641.0
+margin_bottom = 930.0
+
+[node name="section_1" type="HBoxContainer" parent="document/sectionss/body"]
+margin_right = 571.0
+margin_bottom = 68.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_1"]
+margin_right = 20.0
+margin_bottom = 68.0
+text = "1"
+
+[node name="body" type="VBoxContainer" parent="document/sectionss/body/section_1"]
+margin_left = 24.0
+margin_right = 288.0
+margin_bottom = 68.0
+
+[node name="name" type="HBoxContainer" parent="document/sectionss/body/section_1/body"]
+margin_right = 264.0
+margin_bottom = 20.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_1/body/name"]
+margin_right = 48.0
+margin_bottom = 20.0
+text = "name"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_1/body/name"]
+margin_left = 52.0
+margin_right = 194.0
+margin_bottom = 20.0
+text = "Long Name List Test"
+
+[node name="body" type="HBoxContainer" parent="document/sectionss/body/section_1/body"]
+margin_top = 24.0
+margin_right = 264.0
+margin_bottom = 68.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_1/body/body"]
+margin_right = 43.0
+margin_bottom = 44.0
+text = "body"
+
+[node name="body" type="VBoxContainer" parent="document/sectionss/body/section_1/body/body"]
+margin_left = 47.0
+margin_right = 264.0
+margin_bottom = 44.0
+
+[node name="name_1" type="Button" parent="document/sectionss/body/section_1/body/body/body"]
+margin_right = 217.0
+margin_bottom = 20.0
+text = "Pierres Jules DiAngelo Verne III"
+
+[node name="name_2" type="Button" parent="document/sectionss/body/section_1/body/body/body"]
+margin_top = 24.0
+margin_right = 217.0
+margin_bottom = 44.0
+text = "Joachim Michael Fernando Jones"
+
+[node name="section_2" type="HBoxContainer" parent="document/sectionss/body"]
+margin_top = 72.0
+margin_right = 571.0
+margin_bottom = 140.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_2"]
+margin_right = 20.0
+margin_bottom = 68.0
+text = "2"
+
+[node name="body" type="VBoxContainer" parent="document/sectionss/body/section_2"]
+margin_left = 24.0
+margin_right = 220.0
+margin_bottom = 68.0
+
+[node name="name" type="HBoxContainer" parent="document/sectionss/body/section_2/body"]
+margin_right = 196.0
+margin_bottom = 20.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_2/body/name"]
+margin_right = 48.0
+margin_bottom = 20.0
+text = "name"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_2/body/name"]
+margin_left = 52.0
+margin_right = 196.0
+margin_bottom = 20.0
+text = "Application Ordering"
+
+[node name="body" type="HBoxContainer" parent="document/sectionss/body/section_2/body"]
+margin_top = 24.0
+margin_right = 196.0
+margin_bottom = 68.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_2/body/body"]
+margin_right = 43.0
+margin_bottom = 44.0
+text = "body"
+
+[node name="any_1" type="HBoxContainer" parent="document/sectionss/body/section_2/body/body"]
+margin_left = 47.0
+margin_right = 187.0
+margin_bottom = 44.0
+
+[node name="defun" type="Button" parent="document/sectionss/body/section_2/body/body/any_1"]
+margin_right = 48.0
+margin_bottom = 44.0
+text = "defun"
+
+[node name="any_4" type="VBoxContainer" parent="document/sectionss/body/section_2/body/body/any_1"]
+margin_left = 52.0
+margin_right = 140.0
+margin_bottom = 44.0
+
+[node name="any_2" type="HBoxContainer" parent="document/sectionss/body/section_2/body/body/any_1/any_4"]
+margin_right = 88.0
+margin_bottom = 20.0
+
+[node name="fizzbuzz" type="Button" parent="document/sectionss/body/section_2/body/body/any_1/any_4/any_2"]
+margin_right = 64.0
+margin_bottom = 20.0
+text = "fizzbuzz"
+
+[node name="n" type="Button" parent="document/sectionss/body/section_2/body/body/any_1/any_4/any_2"]
+margin_left = 68.0
+margin_right = 88.0
+margin_bottom = 20.0
+text = "n"
+
+[node name="any_3" type="HBoxContainer" parent="document/sectionss/body/section_2/body/body/any_1/any_4"]
+margin_top = 24.0
+margin_right = 88.0
+margin_bottom = 44.0
+
+[node name="cond" type="Button" parent="document/sectionss/body/section_2/body/body/any_1/any_4/any_3"]
+margin_right = 43.0
+margin_bottom = 20.0
+text = "cond"
+
+[node name="elipsis" type="Button" parent="document/sectionss/body/section_2/body/body/any_1/any_4/any_3"]
+margin_left = 47.0
+margin_right = 71.0
+margin_bottom = 20.0
+text = "..."
+
+[node name="section_3" type="HBoxContainer" parent="document/sectionss/body"]
+margin_top = 144.0
+margin_right = 571.0
+margin_bottom = 212.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_3"]
+margin_right = 20.0
+margin_bottom = 68.0
+text = "3"
+
+[node name="body" type="VBoxContainer" parent="document/sectionss/body/section_3"]
+margin_left = 24.0
+margin_right = 185.0
+margin_bottom = 68.0
+
+[node name="name" type="HBoxContainer" parent="document/sectionss/body/section_3/body"]
+margin_right = 161.0
+margin_bottom = 14.0
+
+[node name="label" type="Label" parent="document/sectionss/body/section_3/body/name"]
+margin_right = 36.0
+margin_bottom = 14.0
+text = "name"
+
+[node name="body" type="Label" parent="document/sectionss/body/section_3/body/name"]
+margin_left = 40.0
+margin_right = 161.0
+margin_bottom = 14.0
+text = "Deep List Ordering"
+
+[node name="body" type="HBoxContainer" parent="document/sectionss/body/section_3/body"]
+margin_top = 18.0
+margin_right = 161.0
+margin_bottom = 68.0
+
+[node name="label" type="Label" parent="document/sectionss/body/section_3/body/body"]
+margin_top = 18.0
+margin_right = 31.0
+margin_bottom = 32.0
+text = "body"
+
+[node name="any_1" type="VBoxContainer" parent="document/sectionss/body/section_3/body/body"]
+margin_left = 35.0
+margin_right = 99.0
+margin_bottom = 50.0
+
+[node name="defun" type="Label" parent="document/sectionss/body/section_3/body/body/any_1"]
+margin_right = 64.0
+margin_bottom = 14.0
+text = "defun"
+
+[node name="any_2" type="HBoxContainer" parent="document/sectionss/body/section_3/body/body/any_1"]
+margin_top = 18.0
+margin_right = 64.0
+margin_bottom = 32.0
+
+[node name="fizzbuzz" type="Label" parent="document/sectionss/body/section_3/body/body/any_1/any_2"]
+margin_right = 52.0
+margin_bottom = 14.0
+text = "fizzbuzz"
+
+[node name="n" type="Label" parent="document/sectionss/body/section_3/body/body/any_1/any_2"]
+margin_left = 56.0
+margin_right = 64.0
+margin_bottom = 14.0
+text = "n"
+
+[node name="any_3" type="HBoxContainer" parent="document/sectionss/body/section_3/body/body/any_1"]
+margin_top = 36.0
+margin_right = 64.0
+margin_bottom = 50.0
+
+[node name="cond" type="Label" parent="document/sectionss/body/section_3/body/body/any_1/any_3"]
+margin_right = 31.0
+margin_bottom = 14.0
+text = "cond"
+
+[node name="elipsis" type="Label" parent="document/sectionss/body/section_3/body/body/any_1/any_3"]
+margin_left = 35.0
+margin_right = 47.0
+margin_bottom = 14.0
+text = "..."
+
+[node name="section_4" type="HBoxContainer" parent="document/sectionss/body"]
+margin_top = 216.0
+margin_right = 571.0
+margin_bottom = 314.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_4"]
+margin_right = 20.0
+margin_bottom = 98.0
+text = "4"
+
+[node name="body" type="VBoxContainer" parent="document/sectionss/body/section_4"]
+margin_left = 24.0
+margin_right = 302.0
+margin_bottom = 98.0
+
+[node name="name" type="HBoxContainer" parent="document/sectionss/body/section_4/body"]
+margin_right = 278.0
+margin_bottom = 20.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_4/body/name"]
+margin_right = 48.0
+margin_bottom = 20.0
+text = "name"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_4/body/name"]
+margin_left = 52.0
+margin_right = 278.0
+margin_bottom = 20.0
+text = "Matrix/Table Display Lists of Lists"
+
+[node name="body" type="HBoxContainer" parent="document/sectionss/body/section_4/body"]
+margin_top = 24.0
+margin_right = 278.0
+margin_bottom = 98.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_4/body/body"]
+margin_right = 43.0
+margin_bottom = 74.0
+text = "body"
+
+[node name="body" type="VBoxContainer" parent="document/sectionss/body/section_4/body/body"]
+margin_left = 47.0
+margin_right = 187.0
+margin_bottom = 74.0
+
+[node name="row" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body"]
+margin_right = 140.0
+margin_bottom = 14.0
+
+[node name="cell" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row"]
+margin_right = 20.0
+margin_bottom = 14.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row/cell"]
+margin_right = 8.0
+margin_bottom = 14.0
+text = "1"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row/cell"]
+margin_left = 12.0
+margin_right = 20.0
+margin_bottom = 14.0
+text = "1"
+
+[node name="cell2" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row"]
+margin_left = 24.0
+margin_right = 44.0
+margin_bottom = 14.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row/cell2"]
+margin_right = 8.0
+margin_bottom = 14.0
+text = "1"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row/cell2"]
+margin_left = 12.0
+margin_right = 20.0
+margin_bottom = 14.0
+text = "2"
+
+[node name="cell3" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row"]
+margin_left = 48.0
+margin_right = 68.0
+margin_bottom = 14.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row/cell3"]
+margin_right = 8.0
+margin_bottom = 14.0
+text = "1"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row/cell3"]
+margin_left = 12.0
+margin_right = 20.0
+margin_bottom = 14.0
+text = "3"
+
+[node name="cell4" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row"]
+margin_left = 72.0
+margin_right = 92.0
+margin_bottom = 14.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row/cell4"]
+margin_right = 8.0
+margin_bottom = 14.0
+text = "1"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row/cell4"]
+margin_left = 12.0
+margin_right = 20.0
+margin_bottom = 14.0
+text = "4"
+
+[node name="row2" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body"]
+margin_top = 18.0
+margin_right = 140.0
+margin_bottom = 32.0
+
+[node name="cell" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row2"]
+margin_right = 20.0
+margin_bottom = 14.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row2/cell"]
+margin_right = 8.0
+margin_bottom = 14.0
+text = "2"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row2/cell"]
+margin_left = 12.0
+margin_right = 20.0
+margin_bottom = 14.0
+text = "1"
+
+[node name="cell2" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row2"]
+margin_left = 24.0
+margin_right = 44.0
+margin_bottom = 14.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row2/cell2"]
+margin_right = 8.0
+margin_bottom = 14.0
+text = "2"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row2/cell2"]
+margin_left = 12.0
+margin_right = 20.0
+margin_bottom = 14.0
+text = "2"
+
+[node name="cell3" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row2"]
+margin_left = 48.0
+margin_right = 68.0
+margin_bottom = 14.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row2/cell3"]
+margin_right = 8.0
+margin_bottom = 14.0
+text = "2"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row2/cell3"]
+margin_left = 12.0
+margin_right = 20.0
+margin_bottom = 14.0
+text = "3"
+
+[node name="cell4" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row2"]
+margin_left = 72.0
+margin_right = 92.0
+margin_bottom = 14.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row2/cell4"]
+margin_right = 8.0
+margin_bottom = 14.0
+text = "2"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row2/cell4"]
+margin_left = 12.0
+margin_right = 20.0
+margin_bottom = 14.0
+text = "4"
+
+[node name="row3" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body"]
+margin_top = 36.0
+margin_right = 140.0
+margin_bottom = 50.0
+
+[node name="cell" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row3"]
+margin_right = 20.0
+margin_bottom = 14.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row3/cell"]
+margin_right = 8.0
+margin_bottom = 14.0
+text = "3"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row3/cell"]
+margin_left = 12.0
+margin_right = 20.0
+margin_bottom = 14.0
+text = "1"
+
+[node name="cell2" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row3"]
+margin_left = 24.0
+margin_right = 44.0
+margin_bottom = 14.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row3/cell2"]
+margin_right = 8.0
+margin_bottom = 14.0
+text = "3"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row3/cell2"]
+margin_left = 12.0
+margin_right = 20.0
+margin_bottom = 14.0
+text = "2"
+
+[node name="cell3" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row3"]
+margin_left = 48.0
+margin_right = 68.0
+margin_bottom = 14.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row3/cell3"]
+margin_right = 8.0
+margin_bottom = 14.0
+text = "3"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row3/cell3"]
+margin_left = 12.0
+margin_right = 20.0
+margin_bottom = 14.0
+text = "3"
+
+[node name="cell4" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row3"]
+margin_left = 72.0
+margin_right = 92.0
+margin_bottom = 14.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row3/cell4"]
+margin_right = 8.0
+margin_bottom = 14.0
+text = "3"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row3/cell4"]
+margin_left = 12.0
+margin_right = 20.0
+margin_bottom = 14.0
+text = "4"
+
+[node name="row4" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body"]
+margin_top = 54.0
+margin_right = 140.0
+margin_bottom = 74.0
+
+[node name="cell" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row4"]
+margin_right = 20.0
+margin_bottom = 20.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row4/cell"]
+margin_top = 3.0
+margin_right = 8.0
+margin_bottom = 17.0
+text = "4"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row4/cell"]
+margin_left = 12.0
+margin_top = 3.0
+margin_right = 20.0
+margin_bottom = 17.0
+text = "1"
+
+[node name="cell2" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row4"]
+margin_left = 24.0
+margin_right = 44.0
+margin_bottom = 20.0
+
+[node name="x" type="Label" parent="document/sectionss/body/section_4/body/body/body/row4/cell2"]
+margin_top = 3.0
+margin_right = 8.0
+margin_bottom = 17.0
+text = "4"
+
+[node name="y" type="Label" parent="document/sectionss/body/section_4/body/body/body/row4/cell2"]
+margin_left = 12.0
+margin_top = 3.0
+margin_right = 20.0
+margin_bottom = 17.0
+text = "2"
+
+[node name="cell3" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row4"]
+margin_left = 48.0
+margin_right = 92.0
+margin_bottom = 20.0
+
+[node name="x" type="Button" parent="document/sectionss/body/section_4/body/body/body/row4/cell3"]
+margin_right = 20.0
+margin_bottom = 20.0
+text = "4"
+
+[node name="y" type="Button" parent="document/sectionss/body/section_4/body/body/body/row4/cell3"]
+margin_left = 24.0
+margin_right = 44.0
+margin_bottom = 20.0
+text = "3"
+
+[node name="cell4" type="HBoxContainer" parent="document/sectionss/body/section_4/body/body/body/row4"]
+margin_left = 96.0
+margin_right = 140.0
+margin_bottom = 20.0
+
+[node name="x" type="Button" parent="document/sectionss/body/section_4/body/body/body/row4/cell4"]
+margin_right = 20.0
+margin_bottom = 20.0
+text = "4"
+
+[node name="y" type="Button" parent="document/sectionss/body/section_4/body/body/body/row4/cell4"]
+margin_left = 24.0
+margin_right = 44.0
+margin_bottom = 20.0
+text = "4"
+
+[node name="section_5" type="HBoxContainer" parent="document/sectionss/body"]
+margin_top = 318.0
+margin_right = 571.0
+margin_bottom = 642.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_5"]
+margin_right = 20.0
+margin_bottom = 324.0
+text = "5"
+
+[node name="body" type="VBoxContainer" parent="document/sectionss/body/section_5"]
+margin_left = 24.0
+margin_right = 571.0
+margin_bottom = 324.0
+
+[node name="name" type="HBoxContainer" parent="document/sectionss/body/section_5/body"]
+margin_right = 547.0
+margin_bottom = 20.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_5/body/name"]
+margin_right = 48.0
+margin_bottom = 20.0
+text = "name"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_5/body/name"]
+margin_left = 52.0
+margin_right = 207.0
+margin_bottom = 20.0
+text = "Long Rich Text Display"
+
+[node name="body" type="HBoxContainer" parent="document/sectionss/body/section_5/body"]
+margin_top = 24.0
+margin_right = 547.0
+margin_bottom = 324.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_5/body/body"]
+margin_right = 43.0
+margin_bottom = 300.0
+text = "body"
+
+[node name="body" type="RichTextLabel" parent="document/sectionss/body/section_5/body/body"]
+margin_left = 47.0
+margin_right = 547.0
+margin_bottom = 300.0
+rect_min_size = Vector2( 500, 300 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+bbcode_enabled = true
+bbcode_text = "SCENE: Athens, and a wood not far from it.
+
+ACT I.
+
+SCENE I. Athens. A room in the Palace of THESEUS.
+
+[Enter THESEUS, HIPPOLYTA, PHILOSTRATE, and *Attendants*.]
+
+THESEUS
+Now, fair Hippolyta, our nuptial hour
+Draws on apace; four happy days bring in
+Another moon; but, oh, methinks, how slow
+This old moon wanes! she lingers my desires,
+Like to a step-dame or a dowager,
+Long withering out a young man's revenue.
+
+https://github.com/okfn/shakespeare-material/blob/master/texts/gutenberg/midsummer_nights_dream_gut.txt
+"
+text = "SCENE: Athens, and a wood not far from it.
+
+ACT I.
+
+SCENE I. Athens. A room in the Palace of THESEUS.
+
+[Enter THESEUS, HIPPOLYTA, PHILOSTRATE, and *Attendants*.]
+
+THESEUS
+Now, fair Hippolyta, our nuptial hour
+Draws on apace; four happy days bring in
+Another moon; but, oh, methinks, how slow
+This old moon wanes! she lingers my desires,
+Like to a step-dame or a dowager,
+Long withering out a young man's revenue.
+
+https://github.com/okfn/shakespeare-material/blob/master/texts/gutenberg/midsummer_nights_dream_gut.txt
+"
+fit_content_height = true
+scroll_active = false
+
+[node name="section_6" type="HBoxContainer" parent="document/sectionss/body"]
+margin_top = 646.0
+margin_right = 571.0
+margin_bottom = 882.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_6"]
+margin_right = 20.0
+margin_bottom = 236.0
+text = "6"
+
+[node name="body" type="VBoxContainer" parent="document/sectionss/body/section_6"]
+margin_left = 24.0
+margin_right = 351.0
+margin_bottom = 236.0
+
+[node name="name" type="HBoxContainer" parent="document/sectionss/body/section_6/body"]
+margin_right = 327.0
+margin_bottom = 20.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_6/body/name"]
+margin_right = 48.0
+margin_bottom = 20.0
+text = "name"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_6/body/name"]
+margin_left = 52.0
+margin_right = 157.0
+margin_bottom = 20.0
+text = "Values Display"
+
+[node name="body" type="HBoxContainer" parent="document/sectionss/body/section_6/body"]
+margin_top = 24.0
+margin_right = 327.0
+margin_bottom = 236.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_6/body/body"]
+margin_right = 43.0
+margin_bottom = 212.0
+text = "body"
+
+[node name="body" type="VBoxContainer" parent="document/sectionss/body/section_6/body/body"]
+margin_left = 47.0
+margin_right = 327.0
+margin_bottom = 212.0
+
+[node name="string" type="HBoxContainer" parent="document/sectionss/body/section_6/body/body/body"]
+margin_right = 280.0
+margin_bottom = 20.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_6/body/body/body/string"]
+margin_right = 48.0
+margin_bottom = 20.0
+text = "string"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_6/body/body/body/string"]
+margin_left = 52.0
+margin_right = 150.0
+margin_bottom = 20.0
+text = "Arbitrary Text"
+
+[node name="bool" type="HBoxContainer" parent="document/sectionss/body/section_6/body/body/body"]
+margin_top = 24.0
+margin_right = 280.0
+margin_bottom = 44.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_6/body/body/body/bool"]
+margin_right = 40.0
+margin_bottom = 20.0
+text = "bool"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_6/body/body/body/bool"]
+margin_left = 44.0
+margin_right = 84.0
+margin_bottom = 20.0
+text = "True"
+
+[node name="null" type="HBoxContainer" parent="document/sectionss/body/section_6/body/body/body"]
+margin_top = 48.0
+margin_right = 280.0
+margin_bottom = 68.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_6/body/body/body/null"]
+margin_right = 36.0
+margin_bottom = 20.0
+text = "null"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_6/body/body/body/null"]
+margin_left = 40.0
+margin_right = 76.0
+margin_bottom = 20.0
+text = "null"
+
+[node name="int" type="HBoxContainer" parent="document/sectionss/body/section_6/body/body/body"]
+margin_top = 72.0
+margin_right = 280.0
+margin_bottom = 92.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_6/body/body/body/int"]
+margin_right = 29.0
+margin_bottom = 20.0
+text = "int"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_6/body/body/body/int"]
+margin_left = 33.0
+margin_right = 53.0
+margin_bottom = 20.0
+text = "1"
+
+[node name="float" type="HBoxContainer" parent="document/sectionss/body/section_6/body/body/body"]
+margin_top = 96.0
+margin_right = 280.0
+margin_bottom = 116.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_6/body/body/body/float"]
+margin_right = 40.0
+margin_bottom = 20.0
+text = "float"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_6/body/body/body/float"]
+margin_left = 44.0
+margin_right = 76.0
+margin_bottom = 20.0
+text = "1.2"
+
+[node name="date" type="HBoxContainer" parent="document/sectionss/body/section_6/body/body/body"]
+margin_top = 120.0
+margin_right = 280.0
+margin_bottom = 140.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_6/body/body/body/date"]
+margin_right = 40.0
+margin_bottom = 20.0
+text = "date"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_6/body/body/body/date"]
+margin_left = 44.0
+margin_right = 130.0
+margin_bottom = 20.0
+text = "2021-08-01"
+
+[node name="datetime" type="HBoxContainer" parent="document/sectionss/body/section_6/body/body/body"]
+margin_top = 144.0
+margin_right = 280.0
+margin_bottom = 164.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_6/body/body/body/datetime"]
+margin_right = 70.0
+margin_bottom = 20.0
+text = "datetime"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_6/body/body/body/datetime"]
+margin_left = 74.0
+margin_right = 231.0
+margin_bottom = 20.0
+text = "2021-08-01T19:30:00Z"
+
+[node name="url" type="HBoxContainer" parent="document/sectionss/body/section_6/body/body/body"]
+margin_top = 168.0
+margin_right = 280.0
+margin_bottom = 188.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_6/body/body/body/url"]
+margin_right = 29.0
+margin_bottom = 20.0
+text = "url"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_6/body/body/body/url"]
+margin_left = 33.0
+margin_right = 205.0
+margin_bottom = 20.0
+text = "https://www.google.com/"
+
+[node name="image" type="HBoxContainer" parent="document/sectionss/body/section_6/body/body/body"]
+margin_top = 192.0
+margin_right = 280.0
+margin_bottom = 212.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_6/body/body/body/image"]
+margin_right = 51.0
+margin_bottom = 20.0
+text = "image"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_6/body/body/body/image"]
+margin_left = 55.0
+margin_right = 280.0
+margin_bottom = 20.0
+text = "https://i.imgur.com/PPTi0MN.png"
+
+[node name="section_7" type="HBoxContainer" parent="document/sectionss/body"]
+margin_top = 886.0
+margin_right = 571.0
+margin_bottom = 930.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_7"]
+margin_right = 20.0
+margin_bottom = 44.0
+text = "7"
+
+[node name="body" type="VBoxContainer" parent="document/sectionss/body/section_7"]
+margin_left = 24.0
+margin_right = 208.0
+margin_bottom = 44.0
+
+[node name="name" type="HBoxContainer" parent="document/sectionss/body/section_7/body"]
+margin_right = 184.0
+margin_bottom = 20.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_7/body/name"]
+margin_right = 48.0
+margin_bottom = 20.0
+text = "name"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_7/body/name"]
+margin_left = 52.0
+margin_right = 184.0
+margin_bottom = 20.0
+text = "List of Dictionaries"
+
+[node name="body" type="HBoxContainer" parent="document/sectionss/body/section_7/body"]
+margin_top = 24.0
+margin_right = 184.0
+margin_bottom = 44.0
+
+[node name="label" type="Button" parent="document/sectionss/body/section_7/body/body"]
+margin_right = 43.0
+margin_bottom = 20.0
+text = "body"
+
+[node name="body" type="Button" parent="document/sectionss/body/section_7/body/body"]
+margin_left = 47.0
+margin_right = 98.0
+margin_bottom = 20.0
+text = "FIXME"
