@@ -26,9 +26,9 @@ __meta__ = {
 
 [node name="sort" type="VBoxContainer" parent="."]
 margin_left = 151.0
-margin_top = 7.0
+margin_top = 2.0
 margin_right = 873.0
-margin_bottom = 1661.0
+margin_bottom = 2440.0
 
 [node name="metadata" type="PanelContainer" parent="sort"]
 margin_right = 722.0
@@ -511,40 +511,40 @@ icon = ExtResource( 2 )
 [node name="sections" type="PanelContainer" parent="sort"]
 margin_top = 430.0
 margin_right = 722.0
-margin_bottom = 1654.0
+margin_bottom = 2438.0
 
 [node name="sort" type="HBoxContainer" parent="sort/sections"]
 margin_left = 7.0
 margin_top = 7.0
 margin_right = 715.0
-margin_bottom = 1217.0
+margin_bottom = 2001.0
 
 [node name="label" type="Button" parent="sort/sections/sort"]
 margin_right = 66.0
-margin_bottom = 1210.0
+margin_bottom = 1994.0
 text = "sections"
 
 [node name="body" type="VBoxContainer" parent="sort/sections/sort"]
 margin_left = 70.0
-margin_right = 669.0
-margin_bottom = 1210.0
+margin_right = 697.0
+margin_bottom = 1994.0
 
 [node name="section_1" type="PanelContainer" parent="sort/sections/sort/body"]
-margin_right = 599.0
+margin_right = 627.0
 margin_bottom = 152.0
 
-[node name="section_1" type="HBoxContainer" parent="sort/sections/sort/body/section_1"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_1"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 592.0
+margin_right = 620.0
 margin_bottom = 145.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_1/section_1"]
+[node name="label" type="Button" parent="sort/sections/sort/body/section_1/sort"]
 margin_right = 20.0
 margin_bottom = 138.0
 text = "1"
 
-[node name="PanelContainer" type="PanelContainer" parent="sort/sections/sort/body/section_1/section_1"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_1/sort"]
 margin_left = 24.0
 margin_right = 330.0
 margin_bottom = 138.0
@@ -552,72 +552,72 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="body" type="VBoxContainer" parent="sort/sections/sort/body/section_1/section_1/PanelContainer"]
+[node name="sort" type="VBoxContainer" parent="sort/sections/sort/body/section_1/sort/body"]
 margin_left = 7.0
 margin_top = 7.0
 margin_right = 299.0
 margin_bottom = 131.0
 
-[node name="PanelContainer2" type="PanelContainer" parent="sort/sections/sort/body/section_1/section_1/PanelContainer/body"]
+[node name="name" type="PanelContainer" parent="sort/sections/sort/body/section_1/sort/body/sort"]
 margin_right = 292.0
 margin_bottom = 48.0
 
-[node name="name" type="HBoxContainer" parent="sort/sections/sort/body/section_1/section_1/PanelContainer/body/PanelContainer2"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_1/sort/body/sort/name"]
 margin_left = 7.0
 margin_top = 7.0
 margin_right = 285.0
 margin_bottom = 41.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_1/section_1/PanelContainer/body/PanelContainer2/name"]
+[node name="label" type="Button" parent="sort/sections/sort/body/section_1/sort/body/sort/name/sort"]
 margin_right = 48.0
 margin_bottom = 34.0
 text = "name"
 
-[node name="PanelContainer" type="PanelContainer" parent="sort/sections/sort/body/section_1/section_1/PanelContainer/body/PanelContainer2/name"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_1/sort/body/sort/name/sort"]
 margin_left = 52.0
 margin_right = 208.0
 margin_bottom = 34.0
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_1/section_1/PanelContainer/body/PanelContainer2/name/PanelContainer"]
+[node name="body" type="Button" parent="sort/sections/sort/body/section_1/sort/body/sort/name/sort/body"]
 margin_left = 7.0
 margin_top = 7.0
 margin_right = 149.0
 margin_bottom = 27.0
 text = "Long Name List Test"
 
-[node name="PanelContainer" type="PanelContainer" parent="sort/sections/sort/body/section_1/section_1/PanelContainer/body"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_1/sort/body/sort"]
 margin_top = 52.0
 margin_right = 292.0
 margin_bottom = 124.0
 
-[node name="body" type="HBoxContainer" parent="sort/sections/sort/body/section_1/section_1/PanelContainer/body/PanelContainer"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_1/sort/body/sort/body"]
 margin_left = 7.0
 margin_top = 7.0
 margin_right = 285.0
 margin_bottom = 65.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_1/section_1/PanelContainer/body/PanelContainer/body"]
+[node name="label" type="Button" parent="sort/sections/sort/body/section_1/sort/body/sort/body/sort"]
 margin_right = 43.0
 margin_bottom = 58.0
 text = "body"
 
-[node name="PanelContainer" type="PanelContainer" parent="sort/sections/sort/body/section_1/section_1/PanelContainer/body/PanelContainer/body"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_1/sort/body/sort/body/sort"]
 margin_left = 47.0
 margin_right = 278.0
 margin_bottom = 58.0
 
-[node name="body" type="VBoxContainer" parent="sort/sections/sort/body/section_1/section_1/PanelContainer/body/PanelContainer/body/PanelContainer"]
+[node name="list" type="VBoxContainer" parent="sort/sections/sort/body/section_1/sort/body/sort/body/sort/body"]
 margin_left = 7.0
 margin_top = 7.0
 margin_right = 224.0
 margin_bottom = 51.0
 
-[node name="name_1" type="Button" parent="sort/sections/sort/body/section_1/section_1/PanelContainer/body/PanelContainer/body/PanelContainer/body"]
+[node name="name_1" type="Button" parent="sort/sections/sort/body/section_1/sort/body/sort/body/sort/body/list"]
 margin_right = 217.0
 margin_bottom = 20.0
 text = "Pierres Jules DiAngelo Verne III"
 
-[node name="name_2" type="Button" parent="sort/sections/sort/body/section_1/section_1/PanelContainer/body/PanelContainer/body/PanelContainer/body"]
+[node name="name_2" type="Button" parent="sort/sections/sort/body/section_1/sort/body/sort/body/sort/body/list"]
 margin_top = 24.0
 margin_right = 217.0
 margin_bottom = 44.0
@@ -625,558 +625,837 @@ text = "Joachim Michael Fernando Jones"
 
 [node name="section_2" type="PanelContainer" parent="sort/sections/sort/body"]
 margin_top = 156.0
-margin_right = 599.0
-margin_bottom = 238.0
+margin_right = 627.0
+margin_bottom = 378.0
 
-[node name="section_2" type="HBoxContainer" parent="sort/sections/sort/body/section_2"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_2"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 592.0
-margin_bottom = 75.0
+margin_right = 620.0
+margin_bottom = 215.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_2/section_2"]
+[node name="label" type="Button" parent="sort/sections/sort/body/section_2/sort"]
 margin_right = 20.0
-margin_bottom = 68.0
+margin_bottom = 208.0
 text = "2"
 
-[node name="body" type="VBoxContainer" parent="sort/sections/sort/body/section_2/section_2"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_2/sort"]
 margin_left = 24.0
-margin_right = 220.0
-margin_bottom = 68.0
+margin_right = 295.0
+margin_bottom = 208.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="name" type="HBoxContainer" parent="sort/sections/sort/body/section_2/section_2/body"]
-margin_right = 196.0
-margin_bottom = 20.0
+[node name="sort" type="VBoxContainer" parent="sort/sections/sort/body/section_2/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 264.0
+margin_bottom = 201.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_2/section_2/body/name"]
+[node name="name" type="PanelContainer" parent="sort/sections/sort/body/section_2/sort/body/sort"]
+margin_right = 257.0
+margin_bottom = 48.0
+
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/name"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 250.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_2/sort/body/sort/name/sort"]
 margin_right = 48.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "name"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_2/section_2/body/name"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/name/sort"]
 margin_left = 52.0
-margin_right = 196.0
-margin_bottom = 20.0
+margin_right = 210.0
+margin_bottom = 34.0
+
+[node name="body" type="Button" parent="sort/sections/sort/body/section_2/sort/body/sort/name/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 151.0
+margin_bottom = 27.0
 text = "Application Ordering"
 
-[node name="body" type="HBoxContainer" parent="sort/sections/sort/body/section_2/section_2/body"]
-margin_top = 24.0
-margin_right = 196.0
-margin_bottom = 68.0
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_2/sort/body/sort"]
+margin_top = 52.0
+margin_right = 257.0
+margin_bottom = 194.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_2/section_2/body/body"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 250.0
+margin_bottom = 135.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort"]
 margin_right = 43.0
-margin_bottom = 44.0
+margin_bottom = 128.0
 text = "body"
 
-[node name="any_1" type="HBoxContainer" parent="sort/sections/sort/body/section_2/section_2/body/body"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort"]
 margin_left = 47.0
-margin_right = 187.0
-margin_bottom = 44.0
+margin_right = 243.0
+margin_bottom = 128.0
 
-[node name="defun" type="Button" parent="sort/sections/sort/body/section_2/section_2/body/body/any_1"]
+[node name="list" type="HBoxContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 189.0
+margin_bottom = 121.0
+
+[node name="defun" type="Button" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list"]
 margin_right = 48.0
-margin_bottom = 44.0
+margin_bottom = 114.0
 text = "defun"
 
-[node name="any_4" type="VBoxContainer" parent="sort/sections/sort/body/section_2/section_2/body/body/any_1"]
+[node name="p2" type="PanelContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list"]
 margin_left = 52.0
-margin_right = 140.0
-margin_bottom = 44.0
+margin_right = 182.0
+margin_bottom = 114.0
 
-[node name="any_2" type="HBoxContainer" parent="sort/sections/sort/body/section_2/section_2/body/body/any_1/any_4"]
-margin_right = 88.0
-margin_bottom = 20.0
+[node name="list" type="VBoxContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list/p2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 123.0
+margin_bottom = 107.0
 
-[node name="fizzbuzz" type="Button" parent="sort/sections/sort/body/section_2/section_2/body/body/any_1/any_4/any_2"]
+[node name="p3" type="PanelContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list/p2/list"]
+margin_right = 116.0
+margin_bottom = 48.0
+
+[node name="list" type="HBoxContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list/p2/list/p3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 109.0
+margin_bottom = 41.0
+
+[node name="fizzbuzz" type="Button" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list/p2/list/p3/list"]
 margin_right = 64.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "fizzbuzz"
 
-[node name="n" type="Button" parent="sort/sections/sort/body/section_2/section_2/body/body/any_1/any_4/any_2"]
+[node name="p5" type="PanelContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list/p2/list/p3/list"]
 margin_left = 68.0
-margin_right = 88.0
-margin_bottom = 20.0
+margin_right = 102.0
+margin_bottom = 34.0
+
+[node name="n" type="Button" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list/p2/list/p3/list/p5"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 27.0
+margin_bottom = 27.0
 text = "n"
 
-[node name="any_3" type="HBoxContainer" parent="sort/sections/sort/body/section_2/section_2/body/body/any_1/any_4"]
-margin_top = 24.0
-margin_right = 88.0
-margin_bottom = 44.0
+[node name="p4" type="PanelContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list/p2/list"]
+margin_top = 52.0
+margin_right = 116.0
+margin_bottom = 100.0
 
-[node name="cond" type="Button" parent="sort/sections/sort/body/section_2/section_2/body/body/any_1/any_4/any_3"]
+[node name="list" type="HBoxContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list/p2/list/p4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 109.0
+margin_bottom = 41.0
+
+[node name="cond" type="Button" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list/p2/list/p4/list"]
 margin_right = 43.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "cond"
 
-[node name="elipsis" type="Button" parent="sort/sections/sort/body/section_2/section_2/body/body/any_1/any_4/any_3"]
+[node name="p6" type="PanelContainer" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list/p2/list/p4/list"]
 margin_left = 47.0
-margin_right = 71.0
-margin_bottom = 20.0
+margin_right = 85.0
+margin_bottom = 34.0
+
+[node name="elipsis" type="Button" parent="sort/sections/sort/body/section_2/sort/body/sort/body/sort/body/list/p2/list/p4/list/p6"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 31.0
+margin_bottom = 27.0
 text = "..."
 
 [node name="section_3" type="PanelContainer" parent="sort/sections/sort/body"]
-margin_top = 242.0
-margin_right = 599.0
-margin_bottom = 348.0
+margin_top = 382.0
+margin_right = 627.0
+margin_bottom = 586.0
 
-[node name="section_3" type="HBoxContainer" parent="sort/sections/sort/body/section_3"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_3"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 592.0
-margin_bottom = 99.0
+margin_right = 620.0
+margin_bottom = 197.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_3/section_3"]
+[node name="label" type="Button" parent="sort/sections/sort/body/section_3/sort"]
 margin_right = 20.0
-margin_bottom = 92.0
+margin_bottom = 190.0
 text = "3"
 
-[node name="body" type="VBoxContainer" parent="sort/sections/sort/body/section_3/section_3"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_3/sort"]
 margin_left = 24.0
-margin_right = 209.0
-margin_bottom = 92.0
+margin_right = 251.0
+margin_bottom = 190.0
 
-[node name="name" type="HBoxContainer" parent="sort/sections/sort/body/section_3/section_3/body"]
-margin_right = 185.0
-margin_bottom = 20.0
+[node name="sort" type="VBoxContainer" parent="sort/sections/sort/body/section_3/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 220.0
+margin_bottom = 183.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_3/section_3/body/name"]
+[node name="name" type="PanelContainer" parent="sort/sections/sort/body/section_3/sort/body/sort"]
+margin_right = 213.0
+margin_bottom = 48.0
+
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_3/sort/body/sort/name"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 206.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_3/sort/body/sort/name/sort"]
 margin_right = 48.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "name"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_3/section_3/body/name"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_3/sort/body/sort/name/sort"]
 margin_left = 52.0
-margin_right = 185.0
-margin_bottom = 20.0
+margin_right = 199.0
+margin_bottom = 34.0
+
+[node name="body" type="Button" parent="sort/sections/sort/body/section_3/sort/body/sort/name/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 140.0
+margin_bottom = 27.0
 text = "Deep List Ordering"
 
-[node name="body" type="HBoxContainer" parent="sort/sections/sort/body/section_3/section_3/body"]
-margin_top = 24.0
-margin_right = 185.0
-margin_bottom = 92.0
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_3/sort/body/sort"]
+margin_top = 52.0
+margin_right = 213.0
+margin_bottom = 176.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_3/section_3/body/body"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_3/sort/body/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 206.0
+margin_bottom = 117.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_3/sort/body/sort/body/sort"]
 margin_right = 43.0
-margin_bottom = 68.0
+margin_bottom = 110.0
 text = "body"
 
-[node name="any_1" type="VBoxContainer" parent="sort/sections/sort/body/section_3/section_3/body/body"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_3/sort/body/sort/body/sort"]
 margin_left = 47.0
-margin_right = 135.0
-margin_bottom = 68.0
+margin_right = 163.0
+margin_bottom = 110.0
 
-[node name="defun" type="Button" parent="sort/sections/sort/body/section_3/section_3/body/body/any_1"]
-margin_right = 88.0
+[node name="list" type="VBoxContainer" parent="sort/sections/sort/body/section_3/sort/body/sort/body/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 109.0
+margin_bottom = 103.0
+
+[node name="defun" type="Button" parent="sort/sections/sort/body/section_3/sort/body/sort/body/sort/body/list"]
+margin_right = 102.0
 margin_bottom = 20.0
 text = "defun"
 
-[node name="any_2" type="HBoxContainer" parent="sort/sections/sort/body/section_3/section_3/body/body/any_1"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_3/sort/body/sort/body/sort/body/list"]
 margin_top = 24.0
-margin_right = 88.0
-margin_bottom = 44.0
+margin_right = 102.0
+margin_bottom = 58.0
 
-[node name="fizzbuzz" type="Button" parent="sort/sections/sort/body/section_3/section_3/body/body/any_1/any_2"]
+[node name="any_2" type="HBoxContainer" parent="sort/sections/sort/body/section_3/sort/body/sort/body/sort/body/list/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 95.0
+margin_bottom = 27.0
+
+[node name="fizzbuzz" type="Button" parent="sort/sections/sort/body/section_3/sort/body/sort/body/sort/body/list/body/any_2"]
 margin_right = 64.0
 margin_bottom = 20.0
 text = "fizzbuzz"
 
-[node name="n" type="Button" parent="sort/sections/sort/body/section_3/section_3/body/body/any_1/any_2"]
+[node name="n" type="Button" parent="sort/sections/sort/body/section_3/sort/body/sort/body/sort/body/list/body/any_2"]
 margin_left = 68.0
 margin_right = 88.0
 margin_bottom = 20.0
 text = "n"
 
-[node name="any_3" type="HBoxContainer" parent="sort/sections/sort/body/section_3/section_3/body/body/any_1"]
-margin_top = 48.0
-margin_right = 88.0
-margin_bottom = 68.0
+[node name="body2" type="PanelContainer" parent="sort/sections/sort/body/section_3/sort/body/sort/body/sort/body/list"]
+margin_top = 62.0
+margin_right = 102.0
+margin_bottom = 96.0
 
-[node name="cond" type="Button" parent="sort/sections/sort/body/section_3/section_3/body/body/any_1/any_3"]
+[node name="any_3" type="HBoxContainer" parent="sort/sections/sort/body/section_3/sort/body/sort/body/sort/body/list/body2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 95.0
+margin_bottom = 27.0
+
+[node name="cond" type="Button" parent="sort/sections/sort/body/section_3/sort/body/sort/body/sort/body/list/body2/any_3"]
 margin_right = 43.0
 margin_bottom = 20.0
 text = "cond"
 
-[node name="elipsis" type="Button" parent="sort/sections/sort/body/section_3/section_3/body/body/any_1/any_3"]
+[node name="elipsis" type="Button" parent="sort/sections/sort/body/section_3/sort/body/sort/body/sort/body/list/body2/any_3"]
 margin_left = 47.0
 margin_right = 71.0
 margin_bottom = 20.0
 text = "..."
 
 [node name="section_4" type="PanelContainer" parent="sort/sections/sort/body"]
-margin_top = 352.0
-margin_right = 599.0
-margin_bottom = 482.0
+margin_top = 590.0
+margin_right = 627.0
+margin_bottom = 902.0
 
-[node name="section_4" type="HBoxContainer" parent="sort/sections/sort/body/section_4"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 592.0
-margin_bottom = 123.0
+margin_right = 620.0
+margin_bottom = 305.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_4/section_4"]
+[node name="label" type="Button" parent="sort/sections/sort/body/section_4/sort"]
 margin_right = 20.0
-margin_bottom = 116.0
+margin_bottom = 298.0
 text = "4"
 
-[node name="body" type="VBoxContainer" parent="sort/sections/sort/body/section_4/section_4"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort"]
 margin_left = 24.0
-margin_right = 302.0
-margin_bottom = 116.0
+margin_right = 371.0
+margin_bottom = 298.0
 
-[node name="name" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body"]
-margin_right = 278.0
-margin_bottom = 20.0
+[node name="sort" type="VBoxContainer" parent="sort/sections/sort/body/section_4/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 340.0
+margin_bottom = 291.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/name"]
+[node name="name" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort"]
+margin_right = 333.0
+margin_bottom = 48.0
+
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/name"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 326.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/name/sort"]
 margin_right = 48.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "name"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/name"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/name/sort"]
 margin_left = 52.0
-margin_right = 278.0
-margin_bottom = 20.0
+margin_right = 292.0
+margin_bottom = 34.0
+
+[node name="body" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/name/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 233.0
+margin_bottom = 27.0
 text = "Matrix/Table Display Lists of Lists"
 
-[node name="body" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body"]
-margin_top = 24.0
-margin_right = 278.0
-margin_bottom = 116.0
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort"]
+margin_top = 52.0
+margin_right = 333.0
+margin_bottom = 284.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 326.0
+margin_bottom = 225.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort"]
 margin_right = 43.0
-margin_bottom = 92.0
+margin_bottom = 218.0
 text = "body"
 
-[node name="body" type="VBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort"]
 margin_left = 47.0
-margin_right = 235.0
-margin_bottom = 92.0
+margin_right = 319.0
+margin_bottom = 218.0
 
-[node name="row" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body"]
-margin_right = 188.0
-margin_bottom = 20.0
+[node name="sort" type="VBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 265.0
+margin_bottom = 211.0
 
-[node name="cell" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row"]
-margin_right = 44.0
-margin_bottom = 20.0
+[node name="row1" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort"]
+margin_right = 258.0
+margin_bottom = 48.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row/cell"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 251.0
+margin_bottom = 41.0
+
+[node name="cell1" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort"]
+margin_right = 58.0
+margin_bottom = 34.0
+
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort/cell1"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort/cell1/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "1"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row/cell"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort/cell1/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "1"
 
-[node name="cell2" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row"]
-margin_left = 48.0
-margin_right = 92.0
-margin_bottom = 20.0
+[node name="cell2" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort"]
+margin_left = 62.0
+margin_right = 120.0
+margin_bottom = 34.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row/cell2"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort/cell2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort/cell2/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "1"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row/cell2"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort/cell2/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "2"
 
-[node name="cell3" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row"]
-margin_left = 96.0
-margin_right = 140.0
-margin_bottom = 20.0
+[node name="cell3" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort"]
+margin_left = 124.0
+margin_right = 182.0
+margin_bottom = 34.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row/cell3"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort/cell3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort/cell3/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "1"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row/cell3"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort/cell3/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "3"
 
-[node name="cell4" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row"]
-margin_left = 144.0
-margin_right = 188.0
-margin_bottom = 20.0
+[node name="cell4" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort"]
+margin_left = 186.0
+margin_right = 244.0
+margin_bottom = 34.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row/cell4"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort/cell4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort/cell4/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "1"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row/cell4"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row1/sort/cell4/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "4"
 
-[node name="row2" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body"]
-margin_top = 24.0
-margin_right = 188.0
-margin_bottom = 44.0
+[node name="row2" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort"]
+margin_top = 52.0
+margin_right = 258.0
+margin_bottom = 100.0
 
-[node name="cell" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row2"]
-margin_right = 44.0
-margin_bottom = 20.0
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 251.0
+margin_bottom = 41.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row2/cell"]
+[node name="cell1" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort"]
+margin_right = 58.0
+margin_bottom = 34.0
+
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort/cell1"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort/cell1/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "2"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row2/cell"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort/cell1/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "1"
 
-[node name="cell2" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row2"]
-margin_left = 48.0
-margin_right = 92.0
-margin_bottom = 20.0
+[node name="cell2" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort"]
+margin_left = 62.0
+margin_right = 120.0
+margin_bottom = 34.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row2/cell2"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort/cell2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort/cell2/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "2"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row2/cell2"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort/cell2/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "2"
 
-[node name="cell3" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row2"]
-margin_left = 96.0
-margin_right = 140.0
-margin_bottom = 20.0
+[node name="cell3" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort"]
+margin_left = 124.0
+margin_right = 182.0
+margin_bottom = 34.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row2/cell3"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort/cell3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort/cell3/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "2"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row2/cell3"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort/cell3/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "3"
 
-[node name="cell4" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row2"]
-margin_left = 144.0
-margin_right = 188.0
-margin_bottom = 20.0
+[node name="cell4" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort"]
+margin_left = 186.0
+margin_right = 244.0
+margin_bottom = 34.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row2/cell4"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort/cell4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort/cell4/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "2"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row2/cell4"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row2/sort/cell4/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "4"
 
-[node name="row3" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body"]
-margin_top = 48.0
-margin_right = 188.0
-margin_bottom = 68.0
+[node name="row3" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort"]
+margin_top = 104.0
+margin_right = 258.0
+margin_bottom = 152.0
 
-[node name="cell" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row3"]
-margin_right = 44.0
-margin_bottom = 20.0
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 251.0
+margin_bottom = 41.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row3/cell"]
+[node name="cell1" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort"]
+margin_right = 58.0
+margin_bottom = 34.0
+
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort/cell1"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort/cell1/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "3"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row3/cell"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort/cell1/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "1"
 
-[node name="cell2" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row3"]
-margin_left = 48.0
-margin_right = 92.0
-margin_bottom = 20.0
+[node name="cell2" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort"]
+margin_left = 62.0
+margin_right = 120.0
+margin_bottom = 34.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row3/cell2"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort/cell2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort/cell2/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "3"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row3/cell2"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort/cell2/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "2"
 
-[node name="cell3" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row3"]
-margin_left = 96.0
-margin_right = 140.0
-margin_bottom = 20.0
+[node name="cell3" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort"]
+margin_left = 124.0
+margin_right = 182.0
+margin_bottom = 34.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row3/cell3"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort/cell3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort/cell3/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "3"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row3/cell3"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort/cell3/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "3"
 
-[node name="cell4" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row3"]
-margin_left = 144.0
-margin_right = 188.0
-margin_bottom = 20.0
+[node name="cell4" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort"]
+margin_left = 186.0
+margin_right = 244.0
+margin_bottom = 34.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row3/cell4"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort/cell4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort/cell4/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "3"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row3/cell4"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row3/sort/cell4/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "4"
 
-[node name="row4" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body"]
-margin_top = 72.0
-margin_right = 188.0
-margin_bottom = 92.0
+[node name="row4" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort"]
+margin_top = 156.0
+margin_right = 258.0
+margin_bottom = 204.0
 
-[node name="cell" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row4"]
-margin_right = 44.0
-margin_bottom = 20.0
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 251.0
+margin_bottom = 41.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row4/cell"]
+[node name="cell1" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort"]
+margin_right = 58.0
+margin_bottom = 34.0
+
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort/cell1"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort/cell1/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "4"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row4/cell"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort/cell1/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "1"
 
-[node name="cell2" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row4"]
-margin_left = 48.0
-margin_right = 92.0
-margin_bottom = 20.0
+[node name="cell2" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort"]
+margin_left = 62.0
+margin_right = 120.0
+margin_bottom = 34.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row4/cell2"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort/cell2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort/cell2/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "4"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row4/cell2"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort/cell2/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "2"
 
-[node name="cell3" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row4"]
-margin_left = 96.0
-margin_right = 140.0
-margin_bottom = 20.0
+[node name="cell3" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort"]
+margin_left = 124.0
+margin_right = 182.0
+margin_bottom = 34.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row4/cell3"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort/cell3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort/cell3/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "4"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row4/cell3"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort/cell3/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "3"
 
-[node name="cell4" type="HBoxContainer" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row4"]
-margin_left = 144.0
-margin_right = 188.0
-margin_bottom = 20.0
+[node name="cell4" type="PanelContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort"]
+margin_left = 186.0
+margin_right = 244.0
+margin_bottom = 34.0
 
-[node name="x" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row4/cell4"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort/cell4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 51.0
+margin_bottom = 27.0
+
+[node name="x" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort/cell4/sort"]
 margin_right = 20.0
 margin_bottom = 20.0
 text = "4"
 
-[node name="y" type="Button" parent="sort/sections/sort/body/section_4/section_4/body/body/body/row4/cell4"]
+[node name="y" type="Button" parent="sort/sections/sort/body/section_4/sort/body/sort/body/sort/body/sort/row4/sort/cell4/sort"]
 margin_left = 24.0
 margin_right = 44.0
 margin_bottom = 20.0
 text = "4"
 
 [node name="section_5" type="PanelContainer" parent="sort/sections/sort/body"]
-margin_top = 486.0
-margin_right = 599.0
-margin_bottom = 838.0
+margin_top = 906.0
+margin_right = 627.0
+margin_bottom = 1314.0
 
-[node name="section_5" type="HBoxContainer" parent="sort/sections/sort/body/section_5"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_5"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 592.0
-margin_bottom = 345.0
+margin_right = 620.0
+margin_bottom = 401.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_5/section_5"]
+[node name="label" type="Button" parent="sort/sections/sort/body/section_5/sort"]
 margin_right = 20.0
-margin_bottom = 338.0
+margin_bottom = 394.0
 text = "5"
 
-[node name="body" type="VBoxContainer" parent="sort/sections/sort/body/section_5/section_5"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_5/sort"]
 margin_left = 24.0
-margin_right = 585.0
-margin_bottom = 338.0
+margin_right = 613.0
+margin_bottom = 394.0
 
-[node name="name" type="HBoxContainer" parent="sort/sections/sort/body/section_5/section_5/body"]
-margin_right = 561.0
-margin_bottom = 20.0
+[node name="sort" type="VBoxContainer" parent="sort/sections/sort/body/section_5/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 582.0
+margin_bottom = 387.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_5/section_5/body/name"]
+[node name="name" type="PanelContainer" parent="sort/sections/sort/body/section_5/sort/body/sort"]
+margin_right = 575.0
+margin_bottom = 48.0
+
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_5/sort/body/sort/name"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 568.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_5/sort/body/sort/name/sort"]
 margin_right = 48.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "name"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_5/section_5/body/name"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_5/sort/body/sort/name/sort"]
 margin_left = 52.0
-margin_right = 207.0
-margin_bottom = 20.0
+margin_right = 221.0
+margin_bottom = 34.0
+
+[node name="body" type="Button" parent="sort/sections/sort/body/section_5/sort/body/sort/name/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 162.0
+margin_bottom = 27.0
 text = "Long Rich Text Display"
 
-[node name="body" type="HBoxContainer" parent="sort/sections/sort/body/section_5/section_5/body"]
-margin_top = 24.0
-margin_right = 561.0
-margin_bottom = 338.0
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_5/sort/body/sort"]
+margin_top = 52.0
+margin_right = 575.0
+margin_bottom = 380.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_5/section_5/body/body"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_5/sort/body/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 568.0
+margin_bottom = 321.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_5/sort/body/sort/body/sort"]
 margin_right = 43.0
 margin_bottom = 314.0
 text = "body"
 
-[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_5/section_5/body/body"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_5/sort/body/sort/body/sort"]
 margin_left = 47.0
 margin_right = 561.0
 margin_bottom = 314.0
 
-[node name="body" type="RichTextLabel" parent="sort/sections/sort/body/section_5/section_5/body/body/body"]
+[node name="body" type="RichTextLabel" parent="sort/sections/sort/body/section_5/sort/body/sort/body/sort/body"]
 margin_left = 7.0
 margin_top = 7.0
 margin_right = 507.0
@@ -1225,203 +1504,341 @@ fit_content_height = true
 scroll_active = false
 
 [node name="section_6" type="PanelContainer" parent="sort/sections/sort/body"]
-margin_top = 842.0
-margin_right = 599.0
-margin_bottom = 1092.0
+margin_top = 1318.0
+margin_right = 627.0
+margin_bottom = 1876.0
 
-[node name="section_6" type="HBoxContainer" parent="sort/sections/sort/body/section_6"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_6"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 592.0
-margin_bottom = 243.0
+margin_right = 620.0
+margin_bottom = 551.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_6/section_6"]
+[node name="label" type="Button" parent="sort/sections/sort/body/section_6/sort"]
 margin_right = 20.0
-margin_bottom = 236.0
+margin_bottom = 544.0
 text = "6"
 
-[node name="body" type="VBoxContainer" parent="sort/sections/sort/body/section_6/section_6"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort"]
 margin_left = 24.0
-margin_right = 351.0
-margin_bottom = 236.0
+margin_right = 407.0
+margin_bottom = 544.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="name" type="HBoxContainer" parent="sort/sections/sort/body/section_6/section_6/body"]
-margin_right = 327.0
-margin_bottom = 20.0
+[node name="sort" type="VBoxContainer" parent="sort/sections/sort/body/section_6/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 376.0
+margin_bottom = 537.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/name"]
+[node name="name" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort"]
+margin_right = 369.0
+margin_bottom = 48.0
+
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/name"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 362.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/name/sort"]
 margin_right = 48.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "name"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/name"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/name/sort"]
 margin_left = 52.0
-margin_right = 157.0
-margin_bottom = 20.0
+margin_right = 171.0
+margin_bottom = 34.0
+
+[node name="body" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/name/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 112.0
+margin_bottom = 27.0
 text = "Values Display"
 
-[node name="body" type="HBoxContainer" parent="sort/sections/sort/body/section_6/section_6/body"]
-margin_top = 24.0
-margin_right = 327.0
-margin_bottom = 236.0
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort"]
+margin_top = 52.0
+margin_right = 369.0
+margin_bottom = 530.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 362.0
+margin_bottom = 471.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort"]
 margin_right = 43.0
-margin_bottom = 212.0
+margin_bottom = 464.0
 text = "body"
 
-[node name="body" type="VBoxContainer" parent="sort/sections/sort/body/section_6/section_6/body/body"]
+[node name="body" type="VBoxContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort"]
 margin_left = 47.0
-margin_right = 327.0
-margin_bottom = 212.0
+margin_right = 355.0
+margin_bottom = 464.0
 
-[node name="string" type="HBoxContainer" parent="sort/sections/sort/body/section_6/section_6/body/body/body"]
-margin_right = 280.0
-margin_bottom = 20.0
+[node name="string" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body"]
+margin_right = 308.0
+margin_bottom = 48.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/string"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/string"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 301.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/string/sort"]
 margin_right = 48.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "string"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/string"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/string/sort"]
 margin_left = 52.0
-margin_right = 150.0
-margin_bottom = 20.0
+margin_right = 164.0
+margin_bottom = 34.0
+
+[node name="contents" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/string/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 105.0
+margin_bottom = 27.0
 text = "Arbitrary Text"
 
-[node name="bool" type="HBoxContainer" parent="sort/sections/sort/body/section_6/section_6/body/body/body"]
-margin_top = 24.0
-margin_right = 280.0
-margin_bottom = 44.0
+[node name="bool" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body"]
+margin_top = 52.0
+margin_right = 308.0
+margin_bottom = 100.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/bool"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/bool"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 301.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/bool/sort"]
 margin_right = 40.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "bool"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/bool"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/bool/sort"]
 margin_left = 44.0
-margin_right = 84.0
-margin_bottom = 20.0
+margin_right = 98.0
+margin_bottom = 34.0
+
+[node name="contents" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/bool/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 47.0
+margin_bottom = 27.0
 text = "True"
 
-[node name="null" type="HBoxContainer" parent="sort/sections/sort/body/section_6/section_6/body/body/body"]
-margin_top = 48.0
-margin_right = 280.0
-margin_bottom = 68.0
+[node name="null" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body"]
+margin_top = 104.0
+margin_right = 308.0
+margin_bottom = 152.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/null"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/null"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 301.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/null/sort"]
 margin_right = 36.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "null"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/null"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/null/sort"]
 margin_left = 40.0
-margin_right = 76.0
-margin_bottom = 20.0
+margin_right = 90.0
+margin_bottom = 34.0
+
+[node name="contents" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/null/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 43.0
+margin_bottom = 27.0
 text = "null"
 
-[node name="int" type="HBoxContainer" parent="sort/sections/sort/body/section_6/section_6/body/body/body"]
-margin_top = 72.0
-margin_right = 280.0
-margin_bottom = 92.0
+[node name="int" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body"]
+margin_top = 156.0
+margin_right = 308.0
+margin_bottom = 204.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/int"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/int"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 301.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/int/sort"]
 margin_right = 29.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "int"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/int"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/int/sort"]
 margin_left = 33.0
-margin_right = 53.0
-margin_bottom = 20.0
+margin_right = 67.0
+margin_bottom = 34.0
+
+[node name="contents" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/int/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 27.0
+margin_bottom = 27.0
 text = "1"
 
-[node name="float" type="HBoxContainer" parent="sort/sections/sort/body/section_6/section_6/body/body/body"]
-margin_top = 96.0
-margin_right = 280.0
-margin_bottom = 116.0
+[node name="float" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body"]
+margin_top = 208.0
+margin_right = 308.0
+margin_bottom = 256.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/float"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/float"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 301.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/float/sort"]
 margin_right = 40.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "float"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/float"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/float/sort"]
 margin_left = 44.0
-margin_right = 76.0
-margin_bottom = 20.0
+margin_right = 90.0
+margin_bottom = 34.0
+
+[node name="contents" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/float/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 39.0
+margin_bottom = 27.0
 text = "1.2"
 
-[node name="date" type="HBoxContainer" parent="sort/sections/sort/body/section_6/section_6/body/body/body"]
-margin_top = 120.0
-margin_right = 280.0
-margin_bottom = 140.0
+[node name="date" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body"]
+margin_top = 260.0
+margin_right = 308.0
+margin_bottom = 308.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/date"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/date"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 301.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/date/sort"]
 margin_right = 40.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "date"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/date"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/date/sort"]
 margin_left = 44.0
-margin_right = 130.0
-margin_bottom = 20.0
+margin_right = 144.0
+margin_bottom = 34.0
+
+[node name="contents" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/date/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 93.0
+margin_bottom = 27.0
 text = "2021-08-01"
 
-[node name="datetime" type="HBoxContainer" parent="sort/sections/sort/body/section_6/section_6/body/body/body"]
-margin_top = 144.0
-margin_right = 280.0
-margin_bottom = 164.0
+[node name="datetime" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body"]
+margin_top = 312.0
+margin_right = 308.0
+margin_bottom = 360.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/datetime"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/datetime"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 301.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/datetime/sort"]
 margin_right = 70.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "datetime"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/datetime"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/datetime/sort"]
 margin_left = 74.0
-margin_right = 231.0
-margin_bottom = 20.0
+margin_right = 245.0
+margin_bottom = 34.0
+
+[node name="contents" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/datetime/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 164.0
+margin_bottom = 27.0
 text = "2021-08-01T19:30:00Z"
 
-[node name="url" type="HBoxContainer" parent="sort/sections/sort/body/section_6/section_6/body/body/body"]
-margin_top = 168.0
-margin_right = 280.0
-margin_bottom = 188.0
+[node name="url" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body"]
+margin_top = 364.0
+margin_right = 308.0
+margin_bottom = 412.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/url"]
+[node name="url" type="HBoxContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/url"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 301.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/url/url"]
 margin_right = 29.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "url"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/url"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/url/url"]
 margin_left = 33.0
-margin_right = 205.0
-margin_bottom = 20.0
+margin_right = 219.0
+margin_bottom = 34.0
+
+[node name="contents" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/url/url/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 179.0
+margin_bottom = 27.0
 text = "https://www.google.com/"
 
-[node name="image" type="HBoxContainer" parent="sort/sections/sort/body/section_6/section_6/body/body/body"]
-margin_top = 192.0
-margin_right = 280.0
-margin_bottom = 212.0
+[node name="image" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body"]
+margin_top = 416.0
+margin_right = 308.0
+margin_bottom = 464.0
 
-[node name="label" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/image"]
+[node name="sort" type="HBoxContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/image"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 301.0
+margin_bottom = 41.0
+
+[node name="label" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/image/sort"]
 margin_right = 51.0
-margin_bottom = 20.0
+margin_bottom = 34.0
 text = "image"
 
-[node name="body" type="Button" parent="sort/sections/sort/body/section_6/section_6/body/body/body/image"]
+[node name="body" type="PanelContainer" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/image/sort"]
 margin_left = 55.0
-margin_right = 280.0
-margin_bottom = 20.0
+margin_right = 294.0
+margin_bottom = 34.0
+
+[node name="contents" type="Button" parent="sort/sections/sort/body/section_6/sort/body/sort/body/sort/body/image/sort/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 232.0
+margin_bottom = 27.0
 text = "https://i.imgur.com/PPTi0MN.png"
 
 [node name="section_7" type="PanelContainer" parent="sort/sections/sort/body"]
-margin_top = 1096.0
-margin_right = 599.0
-margin_bottom = 1210.0
+margin_top = 1880.0
+margin_right = 627.0
+margin_bottom = 1994.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -1429,7 +1846,7 @@ __meta__ = {
 [node name="section_7" type="HBoxContainer" parent="sort/sections/sort/body/section_7"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 592.0
+margin_right = 620.0
 margin_bottom = 107.0
 
 [node name="label" type="Button" parent="sort/sections/sort/body/section_7/section_7"]
