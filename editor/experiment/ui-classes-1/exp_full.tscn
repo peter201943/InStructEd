@@ -7,7 +7,7 @@
 [ext_resource path="res://editor/icon/temp/021-command.png" type="Texture" id=5]
 [ext_resource path="res://editor/icon/temp/071-print.png" type="Texture" id=6]
 [ext_resource path="res://experiment/ui-classes-1/window_options.gd" type="Script" id=7]
-[ext_resource path="res://experiment/ui-representations/exp_hvbox.tscn" type="PackedScene" id=8]
+[ext_resource path="res://experiment/ui-representations/exp_hvbox_1.tscn" type="PackedScene" id=8]
 
 [node name="exp_full" type="Control"]
 anchor_right = 1.0

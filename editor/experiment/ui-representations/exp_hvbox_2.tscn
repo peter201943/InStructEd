@@ -9,8 +9,9 @@ __meta__ = {
 
 [node name="document" type="VBoxContainer" parent="."]
 margin_left = 191.0
+margin_top = 9.0
 margin_right = 832.0
-margin_bottom = 1092.0
+margin_bottom = 1101.0
 
 [node name="metadata" type="HBoxContainer" parent="document"]
 margin_right = 641.0
