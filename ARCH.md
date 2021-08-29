@@ -689,4 +689,180 @@ Just work our way up from there.
 Google Keep was smart to not allow any structuring of its inputs.
 Programming semantics includes Intrinsics, Code that does stuff, and Extrinsics, Docs about code
 
+### Where to put Icons Sounds and Fonts
+(Godot Project Resources)
+On individual item's folders?
+Or in a generic resources location?
+For now, just putting them in `editor/font/font-pack/` and `editor/icon/icon-pack/`
+
+### Accepting Incompleteness
+Really need to just move on.
+I lack a thorough, simple vocabulary for describing a cursor traversing a JSON document.
+Mathematically representing JSON document transformations is also difficult, less so for execution, moreso for design of interface.
+(Example, what should "demote" do in the context of a JSON document?)
+Editing a YAML document in a text editor is significantly semantically lighter (less concern for what "demote" means).
+This project was poorly thought-out.
+
+### Cursor is Really a Visitor
+I realized this when creating a mock UI.
+(exp_hbox_3).
+The cursor itself does not really exist.
+Instead it is some invasive pile of components that inserts itself into some subject element.
+This was unexpected.
+
+### Too Many Buttons
+Harms the design overall.
+Had no idea there would be so man clickable things.
+
+### Icons Need Lots of Adjustment
+Just realized how little I like these packs.
+Also how much an icon is itself a mirror of the actual structure of a thing.
+JSON is a very fundamental the structure, and this is difficult to represent with icons.
+Describing edit operations in terms of visual iconography is very incomplete.
+An APL equivalent icon pack for talking about common mathematic transformations would be nice.
+
+### Cursor is Actually Several Different Editors Tied Into One
+`dict`, `list`, `dictlist`, `listdict`, and others.
+Do we want to offer list-item controls?
+How far should the resolution of the cursor extend?
+(Not the *image* resolution of the cursor, but the *sophistication* resolution of the cursor, just how much should it support?)
+(And how far *into* an element should a cursor extend its controls?)
+
+### Customizable Cursor Would be nice
+Let the user decide what the "resolution" of the cursor should be.
+This degree of polymorphism is not feasible.
+
+### Acknowledging Problem of Experiment Folder
+this is where a majority of work is right now
+
+### Where does the Title of an Inspected dict-item Belong
+(See `exp_hbox_3.tscn`.)
+Does the "metadata" label belong with the body? (inside the controls)
+Or does it belong separate from the body? (outside the controls)
+If we promote the items, they are distinct from the label.
+
+### Correctly Distinguishing Between dict and dictlist
+Consider that a `dictlisttree` is xml.
+We need to indicate the difference cleanly
+*(Resolve later)*
+
+### Better Ways of Geometrically Indicating Association
+Insert some symbol?
+Use a spacer?
+Trying the chevron.
+(See `exp_hbox_3.tscn`.)
+
+### Indicating Lists
+Use bullet icon? (per list item)
+Use dots icon? (per list)
+
+### Terribly Overcomplicated Ideas
+Automatically aligning adjacent items?
+(Pair Keys, make nicer appearance).
+(Too much work for current scope).
+
+### Three Different Kinds of Zooms
+**Screen Zoom** (Distance from canvas of all elements (pixels)).
+**Relational Zoom** (semantic distance between elements (grandparent, parent, self, child)).
+**Elemental Zoom** (distance between rendered elements (top, left, right, down)).
+
+### Where to Put Type Icons
+On the **containers** or on the **members**?
+Containers: `dict`, `list`.
+Members: `dictitem`, `listitem`.
+Problems with containers: `dict`s cannot distinguish between `keys` and `values` if the association symbol is dropped.
+If the association symbol is used, there is no need to include a `dict` container icon.
+Problem with members: each `listitem` must now be enumerated, and this may not make sense (consider that borders imply things belong to a collection).
+A solution: identify `dictitems` but not `dicts` and identify `lists` but not `listitems`.
+Solution problems: complex data structures (such as `dictlisttree`) may become unreadable (lack of clarity on origin of list element - which level does it correspond to?)
+
+### Naming Cursor Elements Better
+**Cursor Inject** (`ci`).
+**Cursor Wrapper** (`cw`).
+**Cursor Wrapper Inner** (`cwi`).
+**Cursor Wrapper Outer** (`cwo`).
+
+### Naming list dict Elements Better 
+List should have `"list" (icon)/"members"/member`.
+Dict should have `"map"/"pair" (icon)/member`.
+
+### Listing Out all the Possible Cursor Variations
+The current configuration (`hbox4.tscn`) is unacceptably difficult to implement.
+Though the concept of cursors-within-cursors is fascinating and worth exploring.
+This is underspecified and we will have a very hard time implementing it.
+The current configuration is a simultaneous children-elements interaction (note blue icons on left of dictionary items) and current-element interaction (Framing around window).
+Some controls are also missing (fold, unfold, etc) and there are questions about where these more code-browsing features should be placed, as opposed to these edit-heavy controls.
+
+### Do We Really Need List Identifiers
+It should be pretty apparent from the nesting of elements that things are lists.
+If we were rendering without boxes, we might then need glyphs to indicate such.
+Do we need bounding boxes around maps and lists then?
+Again, it should be relatively obvious that some structure is present.
+And yet, consider single-item maps and single-item lists.
+These would just appear as single-elements and that may be hazardous.
+Also, how to identify empty elements?
+
+### Lack of Responsiveness
+This UI implementation does not scale with screen changes at all.
+
+### These Technical Points Should be Issues not Subsections
+Use the GitHub issue tracker instead of these sections in a markdown file.
+
+### Lack of Camera Abstraction
+Really need some kind of stand-in for a camera (and the associated/expected motions).
+Use a virtual camera to jump the view to any double-clicked item.
+Also bind `ctrl+=` and `ctrl+-` to zooming in/out.
+
+### Assembling Document Abstractions Over Time
+Consider the problems of needing to know the path to an element whilst it is being worked on.
+This is one of the primary concerns when editing a large, long, deeply nested JSON document.
+Consider that this interface does not really address any of those concerns.
+Could be solved through highlighting, etcetera.
+but also need to worry about how `dicts` and `lists` relate to one another.
+Consider the problem of `dictlisttree`.
+This is a composition of `lists` within `dicts` within `lists`.
+Consider that exclusively using container-icons or exclusively using item-icons can help to resolve this ambiguity.
+But currently neither is done.
+
+### Lack of Consistent Vocabulary
+Should really say "map" instead of "dict".
+There are numerous other inconsistencies.
+If time permits, resolve this.
+And in future projects, add a `VOCAB.md` file to prevent this.
+
+### Controls to Place on or Near an Element
+- Expand (move and adjust view to this object
+- Shrink (opposite of expand)
+- Kill/Clear
+- Cancel/Deselect
+- Select
+- Save/Exit
+- *(MISSING)*
+
+### Element Object Design
+Expand to fill parent container.
+Center all contents
+Randomly choose `vbox` or `hbox` on `init` if not set.
+
+### Element Object Semantics
+Elements, Labels, Bodies, Values, Structs.
+**Element** (HVBox, Center) organizes other nodes.
+**Label** (Label) identifies nodes in `dicts`.
+Set name to `$LABEL` if it exists.
+**Body** (Any (value, struct)) for key:value pairs or listitems.
+**Value** (Label) for string, int, float within a struct.
+Set node name to `$VALUE` if it exists.
+**Struct** (HBox, VBox) for in-body organization.
+Set node name to `$LABEL` if it exists.
+
+### Element Holders (list, dict) and Automatic Insertion Handling
+**Creating a Holder** (put inserting element into holder).
+**Inserting a Minidict** (lone key:value pair).
+**Ordering Holders** (list rememebers, dict order alphabetically.
+
+### element features
+`func get_string`  
+`func action_`  
+*(MISSING)*  
+
 
