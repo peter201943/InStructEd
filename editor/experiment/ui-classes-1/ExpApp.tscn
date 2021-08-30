@@ -1,20 +1,22 @@
 [gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://editor/icon/temp/topic_home.png" type="Texture" id=1]
-[ext_resource path="res://editor/icon/temp/settings.png" type="Texture" id=2]
-[ext_resource path="res://editor/icon/temp/topic_files.png" type="Texture" id=3]
-[ext_resource path="res://editor/icon/temp/topic_help.png" type="Texture" id=4]
-[ext_resource path="res://editor/icon/temp/topic_controls.png" type="Texture" id=5]
+[ext_resource path="res://experiment/ui-classes-1/ExpExample.tscn" type="PackedScene" id=1]
+[ext_resource path="res://editor/icon/temp/topic_help.png" type="Texture" id=2]
+[ext_resource path="res://editor/icon/temp/zoom_full.png" type="Texture" id=3]
+[ext_resource path="res://editor/icon/temp/zoom_in.png" type="Texture" id=4]
+[ext_resource path="res://editor/icon/temp/settings.png" type="Texture" id=5]
 [ext_resource path="res://editor/icon/temp/action_export.png" type="Texture" id=6]
-[ext_resource path="res://experiment/ui-classes-1/window_options.gd" type="Script" id=7]
-[ext_resource path="res://experiment/ui-representations/exp_hvbox_5.tscn" type="PackedScene" id=8]
-[ext_resource path="res://editor/icon/temp/zoom_full.png" type="Texture" id=9]
-[ext_resource path="res://editor/icon/temp/zoom_in.png" type="Texture" id=10]
-[ext_resource path="res://editor/icon/temp/zoom_out.png" type="Texture" id=11]
+[ext_resource path="res://editor/icon/temp/topic_controls.png" type="Texture" id=7]
+[ext_resource path="res://editor/icon/temp/zoom_out.png" type="Texture" id=8]
+[ext_resource path="res://editor/icon/temp/topic_home.png" type="Texture" id=9]
+[ext_resource path="res://editor/icon/temp/topic_files.png" type="Texture" id=10]
+[ext_resource path="res://experiment/ui-classes-1/window_options.gd" type="Script" id=11]
 
 [node name="exp_full" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -22,6 +24,8 @@ __meta__ = {
 [node name="window" type="Control" parent="."]
 margin_right = 1020.0
 margin_bottom = 598.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -30,22 +34,24 @@ __meta__ = {
 anchor_right = 1.0
 anchor_bottom = 1.0
 rect_min_size = Vector2( 1020, 550 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="exp_hvbox_5" parent="window/document_holder" instance=ExtResource( 8 )]
+[node name="exp_document" parent="window/document_holder" instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_right = 1375.0
-margin_bottom = 3306.0
+margin_bottom = 3282.0
 
 [node name="window_options" type="Control" parent="window"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 rect_min_size = Vector2( 1020, 50 )
 mouse_filter = 2
-script = ExtResource( 7 )
+script = ExtResource( 11 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -62,14 +68,14 @@ __meta__ = {
 margin_right = 44.0
 margin_bottom = 38.0
 hint_tooltip = "Help"
-icon = ExtResource( 4 )
+icon = ExtResource( 2 )
 
 [node name="settings" type="Button" parent="window/window_options/top_left"]
 margin_left = 48.0
 margin_right = 92.0
 margin_bottom = 38.0
 hint_tooltip = "Settings"
-icon = ExtResource( 2 )
+icon = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -79,7 +85,7 @@ margin_left = 96.0
 margin_right = 140.0
 margin_bottom = 38.0
 hint_tooltip = "Controls"
-icon = ExtResource( 5 )
+icon = ExtResource( 7 )
 
 [node name="top_right" type="HBoxContainer" parent="window/window_options"]
 anchor_left = 1.0
@@ -96,14 +102,14 @@ __meta__ = {
 margin_right = 44.0
 margin_bottom = 38.0
 hint_tooltip = "Profile"
-icon = ExtResource( 1 )
+icon = ExtResource( 9 )
 
 [node name="files" type="Button" parent="window/window_options/top_right"]
 margin_left = 48.0
 margin_right = 92.0
 margin_bottom = 38.0
 hint_tooltip = "Open File"
-icon = ExtResource( 3 )
+icon = ExtResource( 10 )
 
 [node name="export" type="Button" parent="window/window_options/top_right"]
 margin_left = 96.0
@@ -117,6 +123,9 @@ anchor_top = 1.0
 anchor_bottom = 1.0
 margin_top = -40.0
 margin_right = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="bottom_right" type="HBoxContainer" parent="window/window_options"]
 anchor_left = 1.0
@@ -134,21 +143,21 @@ __meta__ = {
 margin_right = 44.0
 margin_bottom = 40.0
 hint_tooltip = "Reset Zoom"
-icon = ExtResource( 9 )
+icon = ExtResource( 3 )
 
 [node name="zoom_in" type="Button" parent="window/window_options/bottom_right"]
 margin_left = 48.0
 margin_right = 92.0
 margin_bottom = 40.0
 hint_tooltip = "Zoom In"
-icon = ExtResource( 10 )
+icon = ExtResource( 4 )
 
 [node name="zoom_out" type="Button" parent="window/window_options/bottom_right"]
 margin_left = 96.0
 margin_right = 140.0
 margin_bottom = 40.0
 hint_tooltip = "Zoom Out"
-icon = ExtResource( 11 )
+icon = ExtResource( 8 )
 
 [connection signal="pressed" from="window/window_options/top_left/help" to="window/window_options" method="open_help"]
 [connection signal="pressed" from="window/window_options/top_left/settings" to="window/window_options" method="open_settings"]
@@ -156,6 +165,6 @@ icon = ExtResource( 11 )
 [connection signal="pressed" from="window/window_options/top_right/profile" to="window/window_options" method="open_profile"]
 [connection signal="pressed" from="window/window_options/top_right/files" to="window/window_options" method="open_files"]
 [connection signal="pressed" from="window/window_options/top_right/export" to="window/window_options" method="open_export"]
-[connection signal="pressed" from="window/window_options/bottom_right/zoom_full" to="window/window_options" method="open_profile"]
-[connection signal="pressed" from="window/window_options/bottom_right/zoom_in" to="window/window_options" method="open_profile"]
-[connection signal="pressed" from="window/window_options/bottom_right/zoom_out" to="window/window_options" method="open_profile"]
+[connection signal="pressed" from="window/window_options/bottom_right/zoom_full" to="window/window_options" method="zoom_full"]
+[connection signal="pressed" from="window/window_options/bottom_right/zoom_in" to="window/window_options" method="zoom_in"]
+[connection signal="pressed" from="window/window_options/bottom_right/zoom_out" to="window/window_options" method="zoom_out"]

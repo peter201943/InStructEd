@@ -153,6 +153,7 @@
   - Is not enabled, I prefer using named parameters wherever and whenever possible
 - > [Inventory System - ItemList](https://www.reddit.com/r/godot/comments/cj1nl0/inventory_system_itemlist/)
   - Notes on using `ItemList`
+- > [Responsive to fit multiple resolutions](https://godotengine.org/qa/9947/responsive-to-fit-multiple-resolutions)
 
 ### Vi Keybinds
 - > [This is my favorite vim cheat sheet. Does anyone know who created it?](https://www.reddit.com/r/vim/comments/32r85c/this_is_my_favorite_vim_cheat_sheet_does_anyone/)

@@ -26,5 +26,14 @@ func open_export():
   print("open export")
   pass
 
+func zoom_full():
+  print("zoom reset")
+  pass
 
+func zoom_in():
+  print("zoom in")
+  pass
 
+func zoom_out():
+  print("zoom out")
+  pass
