@@ -1,6 +1,6 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=18 format=2]
 
-[ext_resource path="res://experiment/ui-classes-1/App/window_options.gd" type="Script" id=1]
+[ext_resource path="res://experiment/ui-classes-1/App/Frame/window_options.gd" type="Script" id=1]
 [ext_resource path="res://editor/icon/temp/zoom_in.png" type="Texture" id=2]
 [ext_resource path="res://editor/icon/temp/topic_files.png" type="Texture" id=3]
 [ext_resource path="res://editor/icon/temp/topic_home.png" type="Texture" id=4]
@@ -14,8 +14,11 @@
 [ext_resource path="res://editor/icon/temp/pan_down.png" type="Texture" id=12]
 [ext_resource path="res://editor/icon/temp/pan_left.png" type="Texture" id=13]
 [ext_resource path="res://editor/icon/temp/pan_right.png" type="Texture" id=14]
+[ext_resource path="res://experiment/ui-classes-1/App/Windows/Help/ExpWindowHelp.tscn" type="PackedScene" id=15]
+[ext_resource path="res://experiment/ui-classes-1/App/Windows/ExpWindowFrame.tscn" type="PackedScene" id=16]
+[ext_resource path="res://experiment/ui-classes-1/App/Windows/Profile/ExpWindowProfile.tscn" type="PackedScene" id=17]
 
-[node name="window_options" type="Control"]
+[node name="ExpAppFrame" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 rect_min_size = Vector2( 1020, 50 )
@@ -24,6 +27,11 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+help_window = ExtResource( 15 )
+settings_window = ExtResource( 16 )
+controls_window = ExtResource( 16 )
+profile_window = ExtResource( 17 )
+file_window = ExtResource( 16 )
 
 [node name="top_left" type="HBoxContainer" parent="."]
 margin_right = 140.0
@@ -194,3 +202,7 @@ __meta__ = {
 [connection signal="pressed" from="bottom_right/zoom_full" to="." method="zoom_full"]
 [connection signal="pressed" from="bottom_right/zoom_in" to="." method="zoom_in"]
 [connection signal="pressed" from="bottom_right/zoom_out" to="." method="zoom_out"]
+[connection signal="pressed" from="panning/pan_up" to="." method="pan_up"]
+[connection signal="pressed" from="panning/pan_down" to="." method="pan_down"]
+[connection signal="pressed" from="panning/pan_left" to="." method="pan_left"]
+[connection signal="pressed" from="panning/pan_right" to="." method="pan_right"]

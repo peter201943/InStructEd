@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://experiment/ui-classes-1/App/Windows/ExpWindowFrame.gd" type="Script" id=1]
+[ext_resource path="res://editor/icon/temp/action_delete.png" type="Texture" id=2]
+
+[node name="ExpWindowFrame" type="Panel"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -250.0
+margin_top = -150.0
+margin_right = 250.0
+margin_bottom = 150.0
+script = ExtResource( 1 )
+
+[node name="Control" type="Control" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 493.0
+margin_bottom = 293.0
+
+[node name="exit" type="Button" parent="Control"]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -44.0
+margin_bottom = 38.0
+hint_tooltip = "Help"
+icon = ExtResource( 2 )
+
+[node name="title" type="Label" parent="Control"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -20.0
+margin_right = 20.0
+margin_bottom = 14.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Window Name"
+align = 1
+valign = 1
+
+[connection signal="pressed" from="Control/exit" to="." method="close"]
