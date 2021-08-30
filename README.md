@@ -50,7 +50,7 @@ An [INformed](https://json-schema.org/) [STRUCTural](https://en.wikipedia.org/wi
 
 ## About
 
-[![InStructEd Screenshot](resources/cover.png)](https://www.youtube.com/)
+[![InStructEd Screenshot](resources/cover.png)](https://www.youtube.com/watch?v=AJhlhspagAU)
 
 (TODO Click to see Demo)
 
