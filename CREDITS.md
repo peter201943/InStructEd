@@ -16,6 +16,8 @@
   - For File Hosting
 - > [GitHub](https://github.com/about)
   - For Code Hosting
+- > [Bandicam](https://www.bandicam.com/)
+  - Screen recording
 
 ### Inspiring Software
 - > [Visual Studio Code](https://code.visualstudio.com/)
