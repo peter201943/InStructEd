@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://editor/icon/temp/action_add.png" type="Texture" id=1]
+
+[node name="ci_bot" type="HBoxContainer"]
+margin_right = 612.0
+margin_bottom = 38.0
+alignment = 1
+
+[node name="add" type="Button" parent="."]
+margin_left = 284.0
+margin_right = 328.0
+margin_bottom = 38.0
+hint_tooltip = "Add Another Member"
+icon = ExtResource( 1 )
