@@ -12,6 +12,10 @@
   - For user data storage
 - > [Visual Studio Code](https://code.visualstudio.com/)
   - For Text File manipulation
+- > [Itch.IO](https://itch.io/docs/general/about)
+  - For File Hosting
+- > [GitHub](https://github.com/about)
+  - For Code Hosting
 
 ### Inspiring Software
 - > [Visual Studio Code](https://code.visualstudio.com/)
