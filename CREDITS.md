@@ -154,6 +154,7 @@
 - > [Inventory System - ItemList](https://www.reddit.com/r/godot/comments/cj1nl0/inventory_system_itemlist/)
   - Notes on using `ItemList`
 - > [Responsive to fit multiple resolutions](https://godotengine.org/qa/9947/responsive-to-fit-multiple-resolutions)
+- > [Resize a node when window is resizing](https://godotforums.org/discussion/21019/resize-a-node-when-window-is-resizing)
 
 ### Vi Keybinds
 - > [This is my favorite vim cheat sheet. Does anyone know who created it?](https://www.reddit.com/r/vim/comments/32r85c/this_is_my_favorite_vim_cheat_sheet_does_anyone/)
