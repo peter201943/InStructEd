@@ -1,0 +1,692 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://editor/icon/temp/action_delete.png" type="Texture" id=1]
+[ext_resource path="res://editor/icon/temp/deprecated_item_deselect.png" type="Texture" id=2]
+[ext_resource path="res://editor/icon/temp/move_right.png" type="Texture" id=3]
+[ext_resource path="res://editor/icon/temp/action_add.png" type="Texture" id=4]
+[ext_resource path="res://editor/icon/temp/action_done.png" type="Texture" id=5]
+[ext_resource path="res://editor/icon/temp/move_down.png" type="Texture" id=6]
+[ext_resource path="res://editor/icon/temp/list_container.png" type="Texture" id=7]
+[ext_resource path="res://editor/icon/temp/align_vertical.png" type="Texture" id=8]
+[ext_resource path="res://editor/icon/temp/action_pin_view.png" type="Texture" id=9]
+[ext_resource path="res://editor/icon/temp/topic_help.png" type="Texture" id=10]
+[ext_resource path="res://editor/icon/temp/action_undo.png" type="Texture" id=11]
+[ext_resource path="res://editor/icon/temp/action_bookmark.png" type="Texture" id=12]
+[ext_resource path="res://editor/icon/temp/map_container.png" type="Texture" id=13]
+[ext_resource path="res://editor/icon/temp/move_left.png" type="Texture" id=14]
+[ext_resource path="res://editor/icon/temp/action_copy.png" type="Texture" id=15]
+[ext_resource path="res://editor/icon/temp/move_up.png" type="Texture" id=16]
+[ext_resource path="res://editor/icon/temp/map_item.png" type="Texture" id=17]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+
+[node name="ExpCursorFrame" type="HBoxContainer"]
+margin_right = 722.0
+margin_bottom = 400.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="c_left" type="VBoxContainer" parent="."]
+margin_right = 44.0
+margin_bottom = 400.0
+alignment = 1
+
+[node name="type" type="Button" parent="c_left"]
+margin_top = 75.0
+margin_right = 44.0
+margin_bottom = 113.0
+hint_tooltip = "Change Type (Map)"
+icon = ExtResource( 13 )
+
+[node name="space_top" type="Panel" parent="c_left"]
+modulate = Color( 1, 1, 1, 0 )
+margin_top = 117.0
+margin_right = 44.0
+margin_bottom = 177.0
+rect_min_size = Vector2( 0, 60 )
+
+[node name="promote" type="Button" parent="c_left"]
+margin_top = 181.0
+margin_right = 44.0
+margin_bottom = 219.0
+hint_tooltip = "Promote Item
+(Move to Parent Peer)"
+icon = ExtResource( 14 )
+
+[node name="space_bot" type="Panel" parent="c_left"]
+modulate = Color( 1, 1, 1, 0 )
+margin_top = 223.0
+margin_right = 44.0
+margin_bottom = 283.0
+rect_min_size = Vector2( 0, 60 )
+
+[node name="child_alignment" type="Button" parent="c_left"]
+margin_top = 287.0
+margin_right = 44.0
+margin_bottom = 325.0
+hint_tooltip = "Alignment (Vertical)"
+icon = ExtResource( 8 )
+
+[node name="cwi" type="VBoxContainer" parent="."]
+margin_left = 48.0
+margin_right = 674.0
+margin_bottom = 400.0
+
+[node name="c_top" type="HBoxContainer" parent="cwi"]
+margin_right = 626.0
+margin_bottom = 38.0
+alignment = 1
+
+[node name="help" type="Button" parent="cwi/c_top"]
+margin_left = 139.0
+margin_right = 183.0
+margin_bottom = 38.0
+hint_tooltip = "Item Help"
+icon = ExtResource( 10 )
+
+[node name="space_left" type="Panel" parent="cwi/c_top"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 187.0
+margin_right = 287.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 0 )
+
+[node name="move_up" type="Button" parent="cwi/c_top"]
+margin_left = 291.0
+margin_right = 335.0
+margin_bottom = 38.0
+hint_tooltip = "Insert Into Previous Peer
+(If Previous Peer Exists)"
+icon = ExtResource( 16 )
+
+[node name="space_right" type="Panel" parent="cwi/c_top"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 339.0
+margin_right = 439.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 0 )
+
+[node name="save" type="Button" parent="cwi/c_top"]
+margin_left = 443.0
+margin_right = 487.0
+margin_bottom = 38.0
+hint_tooltip = "Save Changes and Deselect Element"
+icon = ExtResource( 5 )
+
+[node name="body" type="PanelContainer" parent="cwi"]
+margin_top = 42.0
+margin_right = 626.0
+margin_bottom = 358.0
+
+[node name="map" type="VBoxContainer" parent="cwi/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 619.0
+margin_bottom = 309.0
+
+[node name="title" type="PanelContainer" parent="cwi/body/map"]
+margin_right = 612.0
+margin_bottom = 46.0
+
+[node name="pair" type="HBoxContainer" parent="cwi/body/map/title"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 605.0
+margin_bottom = 39.0
+
+[node name="ci_select" type="Button" parent="cwi/body/map/title/pair"]
+margin_right = 30.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Select Child"
+icon = ExtResource( 2 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="label" type="Button" parent="cwi/body/map/title/pair"]
+margin_left = 34.0
+margin_right = 72.0
+margin_bottom = 32.0
+hint_tooltip = "Rename Item"
+text = "title"
+
+[node name="icon" type="TextureRect" parent="cwi/body/map/title/pair"]
+margin_left = 76.0
+margin_right = 108.0
+margin_bottom = 32.0
+texture = ExtResource( 17 )
+stretch_mode = 4
+
+[node name="text_a_demo_file" type="Button" parent="cwi/body/map/title/pair"]
+margin_left = 112.0
+margin_right = 203.0
+margin_bottom = 32.0
+text = "A Demo File"
+
+[node name="ci_end" type="PanelContainer" parent="cwi/body/map/title/pair"]
+margin_left = 207.0
+margin_right = 598.0
+margin_bottom = 32.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/panel = SubResource( 1 )
+
+[node name="options" type="HBoxContainer" parent="cwi/body/map/title/pair/ci_end"]
+margin_right = 391.0
+margin_bottom = 32.0
+alignment = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="duplicate" type="Button" parent="cwi/body/map/title/pair/ci_end/options"]
+margin_left = 327.0
+margin_right = 357.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Duplicate Child"
+icon = ExtResource( 15 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="delete" type="Button" parent="cwi/body/map/title/pair/ci_end/options"]
+margin_left = 361.0
+margin_right = 391.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Delete Child"
+icon = ExtResource( 1 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="date" type="PanelContainer" parent="cwi/body/map"]
+margin_top = 50.0
+margin_right = 612.0
+margin_bottom = 96.0
+
+[node name="pair" type="HBoxContainer" parent="cwi/body/map/date"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 605.0
+margin_bottom = 39.0
+
+[node name="ci_select" type="Button" parent="cwi/body/map/date/pair"]
+margin_right = 30.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Select Child"
+icon = ExtResource( 2 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="label" type="Button" parent="cwi/body/map/date/pair"]
+margin_left = 34.0
+margin_right = 74.0
+margin_bottom = 32.0
+hint_tooltip = "Rename Item"
+text = "date"
+
+[node name="icon" type="TextureRect" parent="cwi/body/map/date/pair"]
+margin_left = 78.0
+margin_right = 110.0
+margin_bottom = 32.0
+texture = ExtResource( 17 )
+stretch_mode = 4
+
+[node name="text_2021" type="Button" parent="cwi/body/map/date/pair"]
+margin_left = 114.0
+margin_right = 200.0
+margin_bottom = 32.0
+text = "2021-08-01"
+
+[node name="ci_end" type="PanelContainer" parent="cwi/body/map/date/pair"]
+margin_left = 204.0
+margin_right = 598.0
+margin_bottom = 32.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/panel = SubResource( 1 )
+
+[node name="options" type="HBoxContainer" parent="cwi/body/map/date/pair/ci_end"]
+margin_right = 394.0
+margin_bottom = 32.0
+alignment = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="duplicate" type="Button" parent="cwi/body/map/date/pair/ci_end/options"]
+margin_left = 330.0
+margin_right = 360.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Duplicate Child"
+icon = ExtResource( 15 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="delete" type="Button" parent="cwi/body/map/date/pair/ci_end/options"]
+margin_left = 364.0
+margin_right = 394.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Delete Child"
+icon = ExtResource( 1 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tags" type="PanelContainer" parent="cwi/body/map"]
+margin_top = 100.0
+margin_right = 612.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pair" type="HBoxContainer" parent="cwi/body/map/tags"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 605.0
+margin_bottom = 53.0
+
+[node name="ci_select" type="Button" parent="cwi/body/map/tags/pair"]
+margin_right = 30.0
+margin_bottom = 46.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Select Child"
+icon = ExtResource( 2 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="label" type="Button" parent="cwi/body/map/tags/pair"]
+margin_left = 34.0
+margin_right = 72.0
+margin_bottom = 46.0
+rect_pivot_offset = Vector2( 995, 207 )
+hint_tooltip = "Rename Item"
+text = "tags"
+
+[node name="icon" type="TextureRect" parent="cwi/body/map/tags/pair"]
+margin_left = 76.0
+margin_right = 108.0
+margin_bottom = 46.0
+texture = ExtResource( 17 )
+stretch_mode = 4
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="body" type="PanelContainer" parent="cwi/body/map/tags/pair"]
+margin_left = 112.0
+margin_right = 493.0
+margin_bottom = 46.0
+
+[node name="list" type="HBoxContainer" parent="cwi/body/map/tags/pair/body"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 374.0
+margin_bottom = 39.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="icon" type="TextureRect" parent="cwi/body/map/tags/pair/body/list"]
+margin_right = 32.0
+margin_bottom = 32.0
+texture = ExtResource( 7 )
+stretch_mode = 4
+
+[node name="members" type="HBoxContainer" parent="cwi/body/map/tags/pair/body/list"]
+margin_left = 36.0
+margin_right = 367.0
+margin_bottom = 32.0
+
+[node name="text_demo" type="Button" parent="cwi/body/map/tags/pair/body/list/members"]
+margin_right = 51.0
+margin_bottom = 32.0
+text = "Demo"
+
+[node name="text_test" type="Button" parent="cwi/body/map/tags/pair/body/list/members"]
+margin_left = 55.0
+margin_right = 94.0
+margin_bottom = 32.0
+text = "Test"
+
+[node name="text_json" type="Button" parent="cwi/body/map/tags/pair/body/list/members"]
+margin_left = 98.0
+margin_right = 141.0
+margin_bottom = 32.0
+text = "JSON"
+
+[node name="text_example" type="Button" parent="cwi/body/map/tags/pair/body/list/members"]
+margin_left = 145.0
+margin_right = 211.0
+margin_bottom = 32.0
+text = "Example"
+
+[node name="text_display" type="Button" parent="cwi/body/map/tags/pair/body/list/members"]
+margin_left = 215.0
+margin_right = 274.0
+margin_bottom = 32.0
+text = "Display"
+
+[node name="text_tables" type="Button" parent="cwi/body/map/tags/pair/body/list/members"]
+margin_left = 278.0
+margin_right = 331.0
+margin_bottom = 32.0
+text = "Tables"
+
+[node name="ci_end" type="PanelContainer" parent="cwi/body/map/tags/pair"]
+margin_left = 497.0
+margin_right = 598.0
+margin_bottom = 46.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/panel = SubResource( 1 )
+
+[node name="options" type="HBoxContainer" parent="cwi/body/map/tags/pair/ci_end"]
+margin_right = 101.0
+margin_bottom = 46.0
+alignment = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="duplicate" type="Button" parent="cwi/body/map/tags/pair/ci_end/options"]
+margin_left = 37.0
+margin_right = 67.0
+margin_bottom = 46.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Duplicate Child"
+icon = ExtResource( 15 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="delete" type="Button" parent="cwi/body/map/tags/pair/ci_end/options"]
+margin_left = 71.0
+margin_right = 101.0
+margin_bottom = 46.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Delete Child"
+icon = ExtResource( 1 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="PanelContainer" parent="cwi/body/map"]
+margin_top = 164.0
+margin_right = 612.0
+margin_bottom = 210.0
+
+[node name="pair" type="HBoxContainer" parent="cwi/body/map/description"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 605.0
+margin_bottom = 39.0
+
+[node name="ci_select" type="Button" parent="cwi/body/map/description/pair"]
+margin_right = 30.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Select Child"
+icon = ExtResource( 2 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="label" type="Button" parent="cwi/body/map/description/pair"]
+margin_left = 34.0
+margin_right = 118.0
+margin_bottom = 32.0
+hint_tooltip = "Rename Item"
+text = "description"
+
+[node name="icon" type="TextureRect" parent="cwi/body/map/description/pair"]
+margin_left = 122.0
+margin_right = 154.0
+margin_bottom = 32.0
+texture = ExtResource( 17 )
+stretch_mode = 4
+
+[node name="text_a_thoroughly" type="Button" parent="cwi/body/map/description/pair"]
+margin_left = 158.0
+margin_right = 530.0
+margin_bottom = 32.0
+text = "a throroughly complex JSON document to use for testing"
+
+[node name="ci_end" type="PanelContainer" parent="cwi/body/map/description/pair"]
+margin_left = 534.0
+margin_right = 598.0
+margin_bottom = 32.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/panel = SubResource( 1 )
+
+[node name="options" type="HBoxContainer" parent="cwi/body/map/description/pair/ci_end"]
+margin_right = 64.0
+margin_bottom = 32.0
+alignment = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="duplicate" type="Button" parent="cwi/body/map/description/pair/ci_end/options"]
+margin_right = 30.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Duplicate Child"
+icon = ExtResource( 15 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="delete" type="Button" parent="cwi/body/map/description/pair/ci_end/options"]
+margin_left = 34.0
+margin_right = 64.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Delete Child"
+icon = ExtResource( 1 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="author" type="PanelContainer" parent="cwi/body/map"]
+margin_top = 214.0
+margin_right = 612.0
+margin_bottom = 260.0
+
+[node name="pair" type="HBoxContainer" parent="cwi/body/map/author"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 605.0
+margin_bottom = 39.0
+
+[node name="ci_select" type="Button" parent="cwi/body/map/author/pair"]
+margin_right = 30.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Select Child"
+icon = ExtResource( 2 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="label" type="Button" parent="cwi/body/map/author/pair"]
+margin_left = 34.0
+margin_right = 87.0
+margin_bottom = 32.0
+hint_tooltip = "Rename Item"
+text = "author"
+
+[node name="icon" type="TextureRect" parent="cwi/body/map/author/pair"]
+margin_left = 91.0
+margin_right = 123.0
+margin_bottom = 32.0
+texture = ExtResource( 17 )
+stretch_mode = 4
+
+[node name="text_peter_man" type="Button" parent="cwi/body/map/author/pair"]
+margin_left = 127.0
+margin_right = 255.0
+margin_bottom = 32.0
+text = "Peter Mangelsdorf"
+
+[node name="ci_end" type="PanelContainer" parent="cwi/body/map/author/pair"]
+margin_left = 259.0
+margin_right = 598.0
+margin_bottom = 32.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/panel = SubResource( 1 )
+
+[node name="options" type="HBoxContainer" parent="cwi/body/map/author/pair/ci_end"]
+margin_right = 339.0
+margin_bottom = 32.0
+alignment = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="duplicate" type="Button" parent="cwi/body/map/author/pair/ci_end/options"]
+margin_left = 275.0
+margin_right = 305.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Duplicate Child"
+icon = ExtResource( 15 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="delete" type="Button" parent="cwi/body/map/author/pair/ci_end/options"]
+margin_left = 309.0
+margin_right = 339.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Delete Child"
+icon = ExtResource( 1 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ci_bot" type="HBoxContainer" parent="cwi/body/map"]
+margin_top = 264.0
+margin_right = 612.0
+margin_bottom = 302.0
+alignment = 1
+
+[node name="add" type="Button" parent="cwi/body/map/ci_bot"]
+margin_left = 284.0
+margin_right = 328.0
+margin_bottom = 38.0
+hint_tooltip = "Add Another Member"
+icon = ExtResource( 4 )
+
+[node name="c_bot" type="HBoxContainer" parent="cwi"]
+margin_top = 362.0
+margin_right = 626.0
+margin_bottom = 400.0
+alignment = 1
+
+[node name="bookmark" type="Button" parent="cwi/c_bot"]
+margin_left = 139.0
+margin_right = 183.0
+margin_bottom = 38.0
+hint_tooltip = "Bookmark Element"
+icon = ExtResource( 12 )
+
+[node name="space_left" type="Panel" parent="cwi/c_bot"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 187.0
+margin_right = 287.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 0 )
+
+[node name="move_down" type="Button" parent="cwi/c_bot"]
+margin_left = 291.0
+margin_right = 335.0
+margin_bottom = 38.0
+hint_tooltip = "Insert Into Next Peer
+(If Next Peer Exists)"
+icon = ExtResource( 6 )
+
+[node name="space_right" type="Panel" parent="cwi/c_bot"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 339.0
+margin_right = 439.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 100, 0 )
+
+[node name="pin_view" type="Button" parent="cwi/c_bot"]
+margin_left = 443.0
+margin_right = 487.0
+margin_bottom = 38.0
+hint_tooltip = "Pin Item to View"
+icon = ExtResource( 9 )
+
+[node name="c_right" type="VBoxContainer" parent="."]
+margin_left = 678.0
+margin_right = 722.0
+margin_bottom = 400.0
+alignment = 1
+
+[node name="reset" type="Button" parent="c_right"]
+margin_top = 75.0
+margin_right = 44.0
+margin_bottom = 113.0
+hint_tooltip = "Undo All Changes"
+icon = ExtResource( 11 )
+
+[node name="space_top" type="Panel" parent="c_right"]
+modulate = Color( 1, 1, 1, 0 )
+margin_top = 117.0
+margin_right = 44.0
+margin_bottom = 177.0
+rect_min_size = Vector2( 0, 60 )
+
+[node name="demote" type="Button" parent="c_right"]
+margin_top = 181.0
+margin_right = 44.0
+margin_bottom = 219.0
+hint_tooltip = "Demote Item into New Empty Peer"
+icon = ExtResource( 3 )
+
+[node name="space_bot" type="Panel" parent="c_right"]
+modulate = Color( 1, 1, 1, 0 )
+margin_top = 223.0
+margin_right = 44.0
+margin_bottom = 283.0
+rect_min_size = Vector2( 0, 60 )
+
+[node name="delete" type="Button" parent="c_right"]
+margin_top = 287.0
+margin_right = 44.0
+margin_bottom = 325.0
+hint_tooltip = "Delete Item"
+icon = ExtResource( 1 )
