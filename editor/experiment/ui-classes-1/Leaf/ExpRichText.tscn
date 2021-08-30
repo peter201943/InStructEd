@@ -1,0 +1,39 @@
+[gd_scene format=2]
+
+[node name="ExpRichText" type="PanelContainer"]
+margin_left = 83.0
+margin_right = 597.0
+margin_bottom = 314.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="body" type="RichTextLabel" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 507.0
+margin_bottom = 307.0
+rect_min_size = Vector2( 500, 300 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+bbcode_enabled = true
+bbcode_text = "SCENE: Athens, and a wood not far from it.
+
+ACT I.
+
+SCENE I. Athens. A room in the Palace of THESEUS.
+
+[Enter THESEUS, HIPPOLYTA, PHILOSTRATE, and *Attendants*.]
+
+THESEUS
+Now, fair Hippolyta, our nuptial hour
+Draws on apace; four happy days bring in
+Another moon; but, oh, methinks, how slow
+This old moon wanes! she lingers my desires,
+Like to a step-dame or a dowager,
+Long withering out a young man's revenue.
+
+https://github.com/okfn/shakespeare-material/blob/master/texts/gutenberg/midsummer_nights_dream_gut.txt
+"
+fit_content_height = true
+scroll_active = false

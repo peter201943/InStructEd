@@ -166,6 +166,9 @@
 - > [How to point github pages to custom html home page](https://stackoverflow.com/questions/36141195/how-to-point-github-pages-to-custom-html-home-page)
 - > [Redirect from an HTML page](https://stackoverflow.com/questions/5411538/redirect-from-an-html-page)
 - > [Unpublishing a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/unpublishing-a-github-pages-site)
+- > [Opening a Web Page from Godot](https://www.youtube.com/watch?v=S9tJhpMi5RY)
+- > [How to download and load a file as texture into a Sprite node using HttpRequest ?](https://godotengine.org/qa/40649/download-load-file-texture-into-sprite-node-using-httprequest)
+- > [Unpackaged images question](https://godotengine.org/qa/40181/unpackaged-images-question?show=40229#a40229)
 
 ### ItchIO
 - > [ITCH.IO BUTLER](https://itch.io/docs/butler/)

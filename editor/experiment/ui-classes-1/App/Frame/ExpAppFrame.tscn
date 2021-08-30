@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://experiment/ui-classes-1/App/window_options.gd" type="Script" id=1]
 [ext_resource path="res://editor/icon/temp/zoom_in.png" type="Texture" id=2]
@@ -10,6 +10,10 @@
 [ext_resource path="res://editor/icon/temp/zoom_full.png" type="Texture" id=8]
 [ext_resource path="res://editor/icon/temp/zoom_out.png" type="Texture" id=9]
 [ext_resource path="res://editor/icon/temp/settings.png" type="Texture" id=10]
+[ext_resource path="res://editor/icon/temp/pan_up.png" type="Texture" id=11]
+[ext_resource path="res://editor/icon/temp/pan_down.png" type="Texture" id=12]
+[ext_resource path="res://editor/icon/temp/pan_left.png" type="Texture" id=13]
+[ext_resource path="res://editor/icon/temp/pan_right.png" type="Texture" id=14]
 
 [node name="window_options" type="Control"]
 anchor_right = 1.0
@@ -123,6 +127,63 @@ margin_right = 140.0
 margin_bottom = 40.0
 hint_tooltip = "Zoom Out"
 icon = ExtResource( 9 )
+
+[node name="panning" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+
+[node name="pan_up" type="Button" parent="panning"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -22.0
+margin_right = 22.0
+margin_bottom = 40.0
+hint_tooltip = "Pan Up"
+icon = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pan_down" type="Button" parent="panning"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -22.0
+margin_top = -40.0
+margin_right = 22.0
+hint_tooltip = "Pan Down"
+icon = ExtResource( 12 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pan_left" type="Button" parent="panning"]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_top = -20.0
+margin_right = 44.0
+margin_bottom = 20.0
+hint_tooltip = "Pan Left"
+icon = ExtResource( 13 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pan_right" type="Button" parent="panning"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -44.0
+margin_top = -20.0
+margin_bottom = 20.0
+hint_tooltip = "Pan Right"
+icon = ExtResource( 14 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [connection signal="pressed" from="top_left/help" to="." method="open_help"]
 [connection signal="pressed" from="top_left/settings" to="." method="open_settings"]
