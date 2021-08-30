@@ -3,6 +3,7 @@
 [node name="ExpText" type="Button"]
 margin_right = 12.0
 margin_bottom = 20.0
+hint_tooltip = "Click to Edit"
 __meta__ = {
 "_edit_use_anchors_": false
 }
